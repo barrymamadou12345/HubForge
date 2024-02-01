@@ -4,7 +4,7 @@ import EnsembleTemp2 from './TemplateNum2/EnsembleTemp2'
 export const PageTemplate = () => {
   return (
     <div>
-      <EnsembleTemp2/>
+      Ckeikh tu mets ton premier template
     </div>
   )
 }

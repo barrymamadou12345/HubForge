@@ -5,6 +5,7 @@ import { PageTemplate } from './components/PageTemplate';
 import Alt  from "./components/TemplateNum1/Alt";
 import { PageAccueil } from './components/composPageAccueil/PageAccueil';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import EnsembleTemp2 from './components/TemplateNum2/EnsembleTemp2';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
         <Routes>
           <Route index element={<PageAccueil />} />
           <Route path="/accueil" element={<PageAccueil />} />
-          <Route path="/templates" element={<PageTemplate />} />
-          <Route path="/templates1" element={<Alt />} />
+          <Route path="/template1" element={<EnsembleTemp2 />} />
+          <Route path="/template2" element={<Alt />} />
         </Routes>
       </BrowserRouter>
     </div>
