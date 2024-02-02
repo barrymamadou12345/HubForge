@@ -16,7 +16,7 @@ function App() {
           <Routes>
             <Route index element={<PageAccueil />} />
             <Route path="/accueil" element={<PageAccueil />} />
-            <Route path="/template1" element={<Alt />} />
+            <Route path="/template1-test" element={<Alt />} />
             <Route path="/template2" element={<EnsembleTemp2 />} />
             <Route path="/template3" element={<PageTemplate />} />
             <Route path="/template4" element={<PageTemplate2 />} />
