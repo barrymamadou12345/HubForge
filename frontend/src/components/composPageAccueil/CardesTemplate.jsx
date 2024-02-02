@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import { useAppContext } from '../../context/AppContext';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { useAppContext } from "../../context/AppContext";
+import { Link } from "react-router-dom";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 export const CardesTemplate = ({
@@ -36,32 +36,28 @@ export const CardesTemplate = ({
           alt="template1"
           className={` ${
             ishover
-              ? "h-[422px] w-[522px] transition-all duration-700 max-sm:h-[360px] max-sm:w-[100%]  "
+              ? "h-[422px] w-[522px] transition-all duration-700 max-sm:h-[360px] max-sm:w-[100%]"
               : "h-[400px] w-[500px] max-sm:h-[320px] max-sm:w-[93%]   transition-all  duration-700 "
           } object-fil z-0`}
         />
       </div>
       <div
-        className={`rounded-xl w-[592px] max-sm:w-[91%]  max-sm:ms-[20px] mx-1 border absolute flex
+        className={`rounded-xl w-[592px] max-sm:w-[91%]  max-sm:ms-[20px] mx-1 absolute flex
          h-[78px] justify-center -mt-[88px] ${
-           darkMode ? "bg-gray-600" : "bg-white"
-         } ${
-          ishover
-            ? "block transition-all pt-4 duration-700 "
-            : "hidden transition-all duration-700  "
-        }`}
+           darkMode ? "bg-gray-700" : "bg-white"
+         } ${ishover ? "block" : "hidden "}`}
       >
         <Link
           to={handleBuy}
-          className="bg-blue-500 text-blanc pb-1 text-xl rounded-full flex items-center h-[45px] px-5"
+          className={`bg-blue-500 mt-5 hover:scale-105 transition-all duration-500 text-blanc pb-1 text-xl rounded-full flex items-center h-[40px] px-5`}
         >
           Buy
         </Link>
         <Link
           to={HandlePreview}
           className={` ${
-            darkMode ? "text-blanc" : "text-gray-600 "
-          } text-xl border-2 ms-4 pb-1 rounded-full flex items-center h-[45px] px-4`}
+            darkMode ? " hover:bg-black text-blanc" : "text-gray-600"
+          } text-xl hover:scale-105 transition-all duration-500 border border-gray-400 ms-4 pb-1 mt-5 rounded-full flex items-center h-[40px] px-4 `}
         >
           preview <FaArrowUpRightFromSquare className="text-[15px] ms-4 mt-1" />
         </Link>
@@ -70,6 +66,7 @@ export const CardesTemplate = ({
         <div>
           <Link
             to={handlePriceTo}
+            target="_blank"
             className={` font-bold text-xl ${
               ishover
                 ? "text-blue-500"
@@ -79,11 +76,15 @@ export const CardesTemplate = ({
             }`}
           >
             {titreCrdTemplate}
-          </Link> <br />
-          <Link to={handlePriceTo}>{DesctiptionTemplate}</Link>
+          </Link>{" "}
+          <br />
+          <Link to={handlePriceTo} target="_blank">
+            {DesctiptionTemplate}
+          </Link>
         </div>
         <Link
           to={handlePriceTo}
+          target="_blank"
           className={`text-lg font-[350] ${
             darkMode ? "text-blanc" : "text-gray-600"
           }`}

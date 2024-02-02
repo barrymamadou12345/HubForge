@@ -15,7 +15,7 @@ export const NavBarPageAccueil = () => {
 
   return (
     <div>
-      <div className="mx-auto max-w-screen-xlpx-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
             <a
@@ -30,11 +30,13 @@ export const NavBarPageAccueil = () => {
           </div>
           <div
             className={` flex max-sm:flex-col-reverse items-center justify-end ${
-              menuVisible ? "max-sm:mt-[120px]" : "mt-4"
+              menuVisible ? "max-sm:mt-[152px]" : "mt-4"
             }`} // je dois ajouter un background pour le toggle et adapter le darkMode
           >
             <div
-              className={` me-32 md:flex md:items-center w-full md:gap-12 ${
+              className={` ${
+                darkMode ? " max-sm:bg-gray-500" : "max-sm:bg-gray-200 "
+              } ps-28 py-4 z-40 rounded-xl me-32  md:flex md:items-center w-full md:gap-12 ${
                 menuVisible ? "block" : "hidden"
               }`}
             >
@@ -46,7 +48,9 @@ export const NavBarPageAccueil = () => {
                 <li>
                   {/*className="pb-2 sm:p-0" -- pour la responsivité du menu*/}
                   <a
-                    className={` ${darkMode ? "text-blanc" : "text-gris"}`}
+                    className={` max-sm:hover:text-orange ${
+                      darkMode ? "text-blanc" : "text-gris"
+                    }`}
                     href="/"
                   >
                     History
@@ -55,7 +59,9 @@ export const NavBarPageAccueil = () => {
 
                 <li>
                   <a
-                    className={`${darkMode ? "text-blanc" : "text-gris"}`}
+                    className={`max-sm:hover:text-orange  ${
+                      darkMode ? "text-blanc" : "text-gris"
+                    }`}
                     href="/"
                   >
                     Services
@@ -64,7 +70,9 @@ export const NavBarPageAccueil = () => {
 
                 <li>
                   <a
-                    className={`${darkMode ? "text-blanc" : "text-gris"}`}
+                    className={`max-sm:hover:text-orange  ${
+                      darkMode ? "text-blanc" : "text-gris"
+                    }`}
                     href="/"
                   >
                     Projects

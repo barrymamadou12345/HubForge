@@ -1,6 +1,4 @@
 import React from 'react'
-import EnsembleTemp2 from './TemplateNum2/EnsembleTemp2'
-import Ampire from "../components/TemplateNum3/Ampire"
 export const PageTemplate2 = () => {
   return (
     <div>
