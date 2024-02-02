@@ -17,7 +17,7 @@ function App() {
             <Route path="/accueil" element={<PageAccueil />} />
             <Route path="/template1" element={<Alt />} />
             <Route path="/template2" element={<EnsembleTemp2 />} />
-            <Route path="/template3" element={<PageTemplate />} />
+            <Route path="/template3" element={<amp />} />
             <Route path="/template4" element={<PageTemplate2 />} />
           </Routes>
         </BrowserRouter>
