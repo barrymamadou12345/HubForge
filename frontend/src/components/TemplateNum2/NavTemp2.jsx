@@ -1,4 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
+import Section1 from './Section1';
+import AccTemp2 from './AccTemp2';
+import Section2 from './Section2';
+import Section3 from './Section3';
+import Section4 from './Section4';
+import Section5 from './Section5';
 
 export default function NavTemp2() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,6 +25,8 @@ export default function NavTemp2() {
 
   return (
     <div>
+
+      
       <header className="bg-white">
         <div className="mx-auto max-w-screen-xl max-sm:shadow px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
@@ -30,11 +38,11 @@ export default function NavTemp2() {
               </a>
             </div>
 
-            <div className="md:flex md:items-center md:gap-12" ref={menuRef}>
-              <nav aria-label="Global" className={` lg:block ${isMenuOpen ? 'block' : 'hidden'}`}>
-                <ul className="flex flex-col md:flex-row max-sm:gap-3 items-center gap-8 text-sm">
+            <div className="lg:flex lg:items-center lg:gap-12 justify-center"  ref={menuRef}>
+              <nav aria-label="Global" className={`lg:block ${isMenuOpen ? 'block' : 'hidden'}`}>
+                <ul className="flex flex-col w-full max-sm:relative max-sm:top-40 max-sm:bg-white  max-sm:justify-center lg:flex-row  items-center gap-8 text-sm">
                   <li>
-                    <a className="text-gray-500 text-xl transition hover:text-gray-500/75" href="/"> Features </a>
+                    <a className="text-gray-500 text-xl transition hover:text-gray-500/75" href="#sec1"> Features </a>
                   </li>
 
                   <li>
@@ -58,7 +66,6 @@ export default function NavTemp2() {
                   </li>
                 </ul>
               </nav>
-
               <div className="flex items-center gap-4">
                 <div className="sm:flex sm:gap-4">
                   <a
@@ -68,7 +75,6 @@ export default function NavTemp2() {
                     Get started
                   </a>
                 </div>
-
                 <div className="block lg:hidden">
                   <button
                     className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
@@ -91,6 +97,12 @@ export default function NavTemp2() {
           </div>
         </div>
       </header>
+      <AccTemp2 />
+      <Section1  id="sec1"/>
+      <Section2 id="sec2"/>
+      <Section3  id="sec3"/>
+      <Section4  id="sec4"/>
+      <Section5  id="sec5"/>
     </div>
   );
 }
