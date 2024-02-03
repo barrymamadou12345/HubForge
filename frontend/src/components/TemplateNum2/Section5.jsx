@@ -1,9 +1,9 @@
-import React from 'react'
-import AIR from "../../assets/images/téléchargement.png"
-import GOOGLE from "../../assets/images/google.svg"
-import GO from "../../assets/images/ge.svg"
-import Netflix from "../../assets/images/netflix.svg"
-import Microsoft from "../../assets/images/microsoft.svg"
+import React from "react";
+import AIR from "../../assets/images/téléchargement.png";
+import GOOGLE from "../../assets/images/google.svg";
+import GO from "../../assets/images/ge.svg";
+import Netflix from "../../assets/images/netflix.svg";
+import Microsoft from "../../assets/images/microsoft.svg";
 
 export default function Section5({ sec5 }) {
   return (
@@ -51,27 +51,19 @@ export default function Section5({ sec5 }) {
                   class="space-y-4 py-6 text-gray-600 dark:text-gray-300"
                 >
                   <li class="space-x-2">
-                    <span class="font-semibold text-primary text-purple-500">
-                      ✓
-                    </span>
+                    <span class="font-semibold text-purple-500">✓</span>
                     <span>First premium advantage</span>
                   </li>
                   <li class="space-x-2">
-                    <span class="font-semibold text-primary text-purple-500">
-                      ✓
-                    </span>
+                    <span class="font-semibold text-purple-500">✓</span>
                     <span>Second advantage weekly</span>
                   </li>
                   <li class="space-x-2">
-                    <span class="font-semibold text-primary text-purple-500">
-                      ✓
-                    </span>
+                    <span class="font-semibold text-purple-500">✓</span>
                     <span>Third advantage donate to project</span>
                   </li>
                   <li class="space-x-2">
-                    <span class="font-semibold text-primary text-purple-500">
-                      ✓
-                    </span>
+                    <span class="font-semibold text-purple-500">✓</span>
                     <span>Fourth, access to all components weekly</span>
                   </li>
                 </ul>
