@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import EnsembleTemp2 from "./components/TemplateNum2/EnsembleTemp2";
 import { AppProvider } from "./context/AppContext";
 import Ampire from "./components/TemplateNum3/Ampire";
+import Aria from "./components/TemplateNum4/Aria";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <Route path="/template1" element={<Alt />} />
             <Route path="/template2" element={<EnsembleTemp2 />} />
             <Route path="/template3" element={<Ampire />} />
-            <Route path="/template4" element={<PageTemplate2 />} />
+            <Route path="/template4" element={<Aria />} />
           </Routes>
         </BrowserRouter>
       </div>
