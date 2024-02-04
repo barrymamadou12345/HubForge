@@ -12,7 +12,11 @@ export const CardsTemplateContenu = [
     fonCardTemplate: "bg-[#ecd0d060]",
     titreCrdTemplate: "Alt ",
     DesctiptionTemplate: "Design agency website ",
-    prixTemplate: "From $43.99 to $59.99",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
     handlePriceTo: "",
   },
   {
@@ -42,8 +46,11 @@ export const CardsTemplateContenu = [
     fonCardTemplate: "bg-[#7cc9cc60]",
     titreCrdTemplate: " Aria",
     DesctiptionTemplate: "Modern Sass - Marketing landing page",
-    prixTemplate: "From $19.99 to $39.99",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
     handlePriceTo: "",
   },
-
 ];
