@@ -49,12 +49,14 @@ export const CardesTemplate = ({
       >
         <Link
           to={handleBuy}
+          target="_blank"
           className={`bg-blue-500 mt-5 hover:scale-105 transition-all duration-500 text-blanc pb-1 text-xl rounded-full flex items-center h-[40px] px-5`}
         >
           Buy
         </Link>
         <Link
           to={HandlePreview}
+          target="_blank"
           className={` ${
             darkMode ? " hover:bg-black text-blanc" : "text-gray-600"
           } text-xl hover:scale-105 transition-all duration-500 border border-gray-400 ms-4 pb-1 mt-5 rounded-full flex items-center h-[40px] px-4 `}
@@ -76,7 +78,7 @@ export const CardesTemplate = ({
             }`}
           >
             {titreCrdTemplate}
-          </Link>{" "}
+          </Link>
           <br />
           <Link to={handlePriceTo} target="_blank">
             {DesctiptionTemplate}

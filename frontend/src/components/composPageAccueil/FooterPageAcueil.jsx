@@ -108,7 +108,7 @@ export const FooterPageAcueil = () => {
                 <BiLoaderCircle className={`text-[37px] me-3`} />
               </a>
             </div>
-            <span class="block w-36 pt-1">&copy;pulso 2023 - 2024 </span>
+            <span class="block w-60 pt-1">&copy;HubForge 2023 - 2024 </span>
           </div>
           <div class="-mb-4 flex gap-1 overflow-hidden font-medium text-gray-600 ">
             Proudly made in
