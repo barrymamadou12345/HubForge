@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import {PageTemplate2 } from "./components/PageTemplate";
+import {PageTemplate1, PageTemplate2, PageTemplate3, PageTemplate4 } from "./components/PageTemplate";
 import Alt from "./components/TemplateNum1/Alt";
 import { PageAccueil } from "./components/composPageAccueil/PageAccueil";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -21,6 +21,10 @@ function App() {
             <Route path="/template2" element={<EnsembleTemp2 />} />
             <Route path="/template3" element={<Ampire />} />
             <Route path="/template4" element={<Aria />} />
+            <Route path="/template5" element={<PageTemplate1 />} />
+            <Route path="/template6" element={<PageTemplate2 />} />
+            <Route path="/template7" element={<PageTemplate3 />} />
+            <Route path="/template8" element={<PageTemplate4 />} />
           </Routes>
         </BrowserRouter>
       </div>
