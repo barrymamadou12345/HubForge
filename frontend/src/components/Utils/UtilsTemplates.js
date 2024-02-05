@@ -12,7 +12,11 @@ export const CardsTemplateContenu = [
     fonCardTemplate: "bg-[#ecd0d060]",
     titreCrdTemplate: "Alt ",
     DesctiptionTemplate: "Design agency website ",
-    prixTemplate: "From $43.99 to $59.99",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
     handlePriceTo: "",
   },
   {
@@ -20,7 +24,7 @@ export const CardsTemplateContenu = [
     handleBuy: "",
     imageTemplate: Template1,
     fonCardTemplate: "bg-[#7c88cc60]",
-    titreCrdTemplate: "Ampire",
+    titreCrdTemplate: " Astrolus",
     DesctiptionTemplate: "Modern Marketing - startup complete website",
     prixTemplate: "From $19.99 to $49.99",
     handlePriceTo: "",
@@ -30,7 +34,7 @@ export const CardsTemplateContenu = [
     handleBuy: "",
     imageTemplate: Template3,
     fonCardTemplate: "bg-[#cc7cc740]",
-    titreCrdTemplate: " Aria",
+    titreCrdTemplate: " Ampire ",
     DesctiptionTemplate: "Simple Designer - Photographer portfolio",
     prixTemplate: "$9.99",
     handlePriceTo: "",
@@ -40,30 +44,73 @@ export const CardsTemplateContenu = [
     handleBuy: "",
     imageTemplate: Template4,
     fonCardTemplate: "bg-[#7cc9cc60]",
-    titreCrdTemplate: " Astrolus",
+    titreCrdTemplate: " Aria",
     DesctiptionTemplate: "Modern Sass - Marketing landing page",
-    prixTemplate: "From $19.99 to $39.99",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
     handlePriceTo: "",
   },
 
   {
-    HandlePreview: "/template1",
+    HandlePreview: "/template5",
     handleBuy: "",
-    imageTemplate: Template2,
-    fonCardTemplate: "bg-[#ecd0d060]",
-    titreCrdTemplate: "Alt ",
-    DesctiptionTemplate: "Design agency website ",
-    prixTemplate: "From $43.99 to $59.99",
+    imageTemplate: Template4,
+    fonCardTemplate: "bg-[#79cc60]",
+    titreCrdTemplate: " Nouveau template 1",
+    DesctiptionTemplate: "Modern Sass - Marketing landing page",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
     handlePriceTo: "",
   },
+
   {
-    HandlePreview: "/template3",
+    HandlePreview: "/template6",
     handleBuy: "",
-    imageTemplate: Template3,
-    fonCardTemplate: "bg-[#cc7cc740]",
-    titreCrdTemplate: " Aria",
-    DesctiptionTemplate: "Simple Designer - Photographer portfolio",
-    prixTemplate: "$9.99",
+    imageTemplate: Template4,
+    fonCardTemplate: "bg-[#d84]",
+    titreCrdTemplate: " Nouveau template 2",
+    DesctiptionTemplate: "Modern Sass - Marketing landing page",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
+    handlePriceTo: "",
+  },
+
+  {
+    HandlePreview: "/template7",
+    handleBuy: "",
+    imageTemplate: Template4,
+    fonCardTemplate: "bg-[#00ff]",
+    titreCrdTemplate: " Nouveau template 3",
+    DesctiptionTemplate: "Modern Sass - Marketing landing page",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
+    handlePriceTo: "",
+  },
+
+  {
+    HandlePreview: "/template8",
+    handleBuy: "",
+    imageTemplate: Template4,
+    fonCardTemplate: "bg-[#000000]",
+    titreCrdTemplate: " Nouveau templa 4",
+    DesctiptionTemplate: "Modern Sass - Marketing landing page",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
     handlePriceTo: "",
   },
 ];

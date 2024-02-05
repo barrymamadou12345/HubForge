@@ -25,7 +25,7 @@ export const NavBarPageAccueil = () => {
               href="/"
             >
               <BiLoaderCircle className={`text-[37px] me-3`} />
-              <p className="text-2xl font-[500]">Pulso</p>
+              <p className="text-2xl font-[500]">HubForge</p>
             </a>
           </div>
           <div
