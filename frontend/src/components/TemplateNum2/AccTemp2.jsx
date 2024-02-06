@@ -22,13 +22,13 @@ export default function AccTemp2() {
         <div className='flex gap-3 max-sm:gap-2'>   
         <a
           href="#"
-          className="mt-8 inline-block rounded-3xl bg-purple-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-200 hover:text-purple-500 focus:outline-none focus:ring focus:ring-yellow-400"
+          className="mt-8 inline-block rounded-3xl bg-purple-500 px-8 py-3 text-sm font-medium text-white transition  focus:outline-none focus:ring focus:ring-yellow-400"
         >
           Get Started 
         </a>
         <a
           href="#"
-          className="mt-8 inline-block rounded-3xl bg-purple-200 px-12 py-3 text-sm font-medium text-purple-500 transition hover:bg-purple-500 hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
+          className="mt-8 inline-block rounded-3xl bg-purple-200 px-8 py-3 text-sm font-medium text-purple-500 transition  focus:outline-none focus:ring focus:ring-yellow-400"
         >
           Learne More
         </a>

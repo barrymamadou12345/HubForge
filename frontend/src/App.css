@@ -1,4 +1,14 @@
-/* Cheikh CSS */
+.testColor {
+  color: #9af8032f;
+}
+.ordered{
+  background-image: url(./assets/images/vues.png);
+  height: 1000px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
 
-/* Fin Cheikh CSS */
+ 
+}
