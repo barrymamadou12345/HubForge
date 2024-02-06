@@ -23,7 +23,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route index element={<PageAccueil />} />
-            <Route path="/accueil" element={<PageAccueil />} />
+            <Route path="/" element={<PageAccueil />} />
             <Route path="/template1" element={<Alt />} />
             <Route path="/template2" element={<EnsembleTemp2 />} />
             <Route path="/templatesPage" element={<TotalTemplates />} />
