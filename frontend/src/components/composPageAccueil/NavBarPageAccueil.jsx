@@ -29,57 +29,8 @@ export const NavBarPageAccueil = () => {
             </a>
           </div>
           <div
-            className={` flex max-sm:flex-col-reverse items-center justify-end ${
-              menuVisible ? "max-sm:mt-[152px]" : "mt-4"
-            }`} // je dois ajouter un background pour le toggle et adapter le darkMode
+            className={` flex max-sm:flex-col-reverse items-center justify-end `}
           >
-            <div
-              className={` ${
-                darkMode ? " max-sm:bg-gray-500" : "max-sm:bg-gray-200 "
-              } ps-28 py-4 z-40 rounded-xl me-32  md:flex md:items-center w-full md:gap-12 ${
-                menuVisible ? "block" : "hidden"
-              }`}
-            >
-              <ul
-                className={` flex gap-4 text-md ${
-                  menuVisible ? " max-sm:flex-col  gap-3" : " "
-                }`}
-              >
-                <li>
-                  {/*className="pb-2 sm:p-0" -- pour la responsivité du menu*/}
-                  <a
-                    className={` max-sm:hover:text-orange ${
-                      darkMode ? "text-blanc" : "text-gris"
-                    }`}
-                    href="/"
-                  >
-                    History
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className={`max-sm:hover:text-orange  ${
-                      darkMode ? "text-blanc" : "text-gris"
-                    }`}
-                    href="/"
-                  >
-                    Services
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className={`max-sm:hover:text-orange  ${
-                      darkMode ? "text-blanc" : "text-gris"
-                    }`}
-                    href="/"
-                  >
-                    Projects
-                  </a>
-                </li>
-              </ul>
-            </div>
             <div className=" flex items-center w-full justify-end gap-4">
               <div className="sm:flex sm:gap-4">
                 <button onClick={toggleDarkMode} className="ms-4">
