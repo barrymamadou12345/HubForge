@@ -29,7 +29,7 @@ export default function NavTemp2() {
         <div className="mx-auto max-w-screen-xl max-sm:shadow px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="flex-1 md:flex md:items-center md:gap-12">
-              <a
+              <a 
                 href="#home"
                 aria-label="logo"
                 className="flex items-center space-x-2 px-0"
