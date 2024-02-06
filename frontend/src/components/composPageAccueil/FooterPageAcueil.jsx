@@ -28,7 +28,7 @@ export const FooterPageAcueil = () => {
             <h2 class="-mt-[3px] flex items-start justify-center gap-2 text-center text-lg font-semibold text-blue-950  sm:gap-1">
               <div class="block">
                 <div class="relative block pb-2">
-                  <span class="block"> Dakar </span>
+                  <span class="block"> Bakeli </span>
                 </div>
               </div>
             </h2>
