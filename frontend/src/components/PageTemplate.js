@@ -1,12 +1,12 @@
 import React from 'react'
 import EnsembleTemp2 from './TemplateNum2/EnsembleTemp2'
+import ChompRestaurant from "../components/pageTemplate2/ChompRestaurant";
 
 export const PageTemplate = () => {
   return (
     <div>
-      <p className="text-center mt-[20%] text-4xl text-green-700 font-bold">
-        Ckeikh tu REND ton deuxième template ICI dans PageTemplate
-      </p>
+      {/*  */}
+      <ChompRestaurant/>
     </div>
   );
 }
