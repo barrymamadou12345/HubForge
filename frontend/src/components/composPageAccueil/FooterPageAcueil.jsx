@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { BiLoaderCircle } from "react-icons/bi";
 import { useAppContext } from "../../context/AppContext";
-import { MdOutlineMailOutline } from "react-icons/md";
 
 export const FooterPageAcueil = () => {
   const { darkMode } = useAppContext();
+
+  const date = new Date();
+  const formatDate = (dateString) => {
+    const options = {
+      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+      // hour: "numeric",
+      // minute: "numeric",
+      // second: "numeric",
+      // hour12: false,
+    };
+    return new Date(dateString).toLocaleDateString("fr-FR", options);
+  };
 
   return (
     <div className=" mt-24 pb-6 text-sm tracking-wide">
@@ -21,14 +34,16 @@ export const FooterPageAcueil = () => {
                 <BiLoaderCircle className={`text-[37px] me-3`} />
               </a>
             </div>
-            <span class="block w-60 pt-1">&copy;HubForge 2023 - 2024 </span>
+            <span class="block w-60 pt-1">
+              &copy; HubForge {formatDate(date)}
+            </span>
           </div>
           <div class="-mb-4 flex gap-1 overflow-hidden font-medium text-gray-600 ">
-            Proudly made in
+            Proudly By
             <h2 class="-mt-[3px] flex items-start justify-center gap-2 text-center text-lg font-semibold text-blue-950  sm:gap-1">
               <div class="block">
                 <div class="relative block pb-2">
-                  <span class="block"> Dakar </span>
+                  <span class="block"> Bakeli </span>
                 </div>
               </div>
             </h2>
