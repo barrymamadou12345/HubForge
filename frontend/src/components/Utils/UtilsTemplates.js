@@ -97,7 +97,8 @@ export const CardsTemplateContenu = [
 export const CardsTemplateContenu2 = [
   {
     HandlePreview: "/template9",
-    handleBuy: "",
+    handleBuy:
+      "https://github.com/barrymamadou12345/HubForgeTEMPLATES/archive/refs/heads/SkillHubTemplate.zip",
     imageTemplate: Template5,
     fonCardTemplate: "bg-[#35e71621]",
     titreCrdTemplate: " SkillHub",

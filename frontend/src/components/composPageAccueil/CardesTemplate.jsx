@@ -49,7 +49,6 @@ export const CardesTemplate = ({
       >
         <Link
           to={handleBuy}
-          target="_blank"
           className={`bg-blue-500 mt-5 hover:scale-105 transition-all duration-500 text-blanc pb-1 text-xl rounded-full flex items-center h-[40px] px-5`}
         >
           Buy
