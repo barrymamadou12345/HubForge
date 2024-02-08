@@ -52,7 +52,7 @@ export const PageAccueil = () => {
         <div className="w-full flex justify-center mb-20">
           <Link to="/templatesPage">
             <button
-              className={`text-white font-bold px-10 rounded-full hover:bg-[#3ba18d] animate-pulse py-4 text-2xl flex bg-[#171124c2] ${
+              className={`text-white font-bold px-10 rounded-full hover:bg-[#161818] py-3 text-2xl flex bg-[#20143de4] ${
                 darkMode ? "bg-blue-800" : ""
               }`}
             >

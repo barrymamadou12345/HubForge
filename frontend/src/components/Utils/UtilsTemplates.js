@@ -22,14 +22,18 @@ export const CardsTemplateContenu = [
     fonCardTemplate: "bg-[#74444488]",
     titreCrdTemplate: " Reduction DashBoard ",
     DesctiptionTemplate: "Modern Marketing dashBoard",
-    prixTemplate: "From $19.99 to $49.99",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
     handlePriceTo: "",
   },
 
   {
-    HandlePreview: "https://projet3-three.vercel.app/",
+    HandlePreview: "https://stage-projet3.vercel.app/",
     handleBuy: "",
-    imageTemplate: Template8,
+    imageTemplate: Template6,
     fonCardTemplate: "bg-[#cc00c740]",
     titreCrdTemplate: " Dashboard ",
     DesctiptionTemplate: "Simple Designer DashBoard",
@@ -41,57 +45,57 @@ export const CardsTemplateContenu = [
     handlePriceTo: "",
   },
 
-  {
-    HandlePreview: "https://projetstage-1.vercel.app/",
-    handleBuy: "",
-    imageTemplate: Template9,
-    fonCardTemplate: "bg-[#7cc9cc60]",
-    titreCrdTemplate: " DashBoard ",
-    DesctiptionTemplate: "Dahashboard template",
-    prixTemplate: (
-      <p className="text-green-700 font-bold italic">
-        <span className="text-gray-500 font-light me-2">$0.00</span>Free
-      </p>
-    ),
-    handlePriceTo: "",
-  },
+  // {
+  //   HandlePreview: "https://projetstage-1.vercel.app/",
+  //   handleBuy: "",
+  //   imageTemplate: Template9,
+  //   fonCardTemplate: "bg-[#7cc9cc60]",
+  //   titreCrdTemplate: " DashBoard ",
+  //   DesctiptionTemplate: "Dahashboard template",
+  //   prixTemplate: (
+  //     <p className="text-green-700 font-bold italic">
+  //       <span className="text-gray-500 font-light me-2">$0.00</span>Free
+  //     </p>
+  //   ),
+  //   handlePriceTo: "",
+  // },
 
-  {
-    HandlePreview: "https://red-team-projet2.vercel.app/",
-    handleBuy: "",
-    imageTemplate: Template11,
-    fonCardTemplate: "bg-[#e716472f]",
-    titreCrdTemplate: " DashBoard ",
-    DesctiptionTemplate: "Template DashBoard",
-    prixTemplate: "10.000 XOF",
-    handlePriceTo: "",
-  },
+  // {
+  //   HandlePreview: "https://red-team-projet2.vercel.app/",
+  //   handleBuy: "",
+  //   imageTemplate: Template11,
+  //   fonCardTemplate: "bg-[#e716472f]",
+  //   titreCrdTemplate: " DashBoard ",
+  //   DesctiptionTemplate: "Template DashBoard",
+  //   prixTemplate: "10.000 XOF",
+  //   handlePriceTo: "",
+  // },
 
-  {
-    HandlePreview: "https://xtrem-templates-vffv.vercel.app/",
-    handleBuy: "",
-    imageTemplate: Template10,
-    fonCardTemplate: "bg-[#78808880]",
-    titreCrdTemplate: " DashBoard ",
-    DesctiptionTemplate: "Dashboard Tamplate",
-    prixTemplate: (
-      <p className="text-green-700 font-bold italic">
-        <span className="text-gray-500 font-light me-2">$0.00</span>Free
-      </p>
-    ),
-    handlePriceTo: "",
-  },
+  // {
+  //   HandlePreview: "https://xtrem-templates-vffv.vercel.app/",
+  //   handleBuy: "",
+  //   imageTemplate: Template10,
+  //   fonCardTemplate: "bg-[#78808880]",
+  //   titreCrdTemplate: " DashBoard ",
+  //   DesctiptionTemplate: "Dashboard Tamplate",
+  //   prixTemplate: (
+  //     <p className="text-green-700 font-bold italic">
+  //       <span className="text-gray-500 font-light me-2">$0.00</span>Free
+  //     </p>
+  //   ),
+  //   handlePriceTo: "",
+  // },
 
-  {
-    HandlePreview: "https://stage-red-team-l7k6.vercel.app/",
-    handleBuy: "",
-    imageTemplate: Template12,
-    fonCardTemplate: "bg-[#cc7cc740]",
-    titreCrdTemplate: " DashBoard ",
-    DesctiptionTemplate: "Simple Designer DashBoard",
-    prixTemplate: "8.000 XOF",
-    handlePriceTo: "",
-  },
+  // {
+  //   HandlePreview: "https://stage-red-team-l7k6.vercel.app/",
+  //   handleBuy: "",
+  //   imageTemplate: Template12,
+  //   fonCardTemplate: "bg-[#cc7cc740]",
+  //   titreCrdTemplate: " DashBoard ",
+  //   DesctiptionTemplate: "Simple Designer DashBoard",
+  //   prixTemplate: "8.000 XOF",
+  //   handlePriceTo: "",
+  // },
 ];
 
 export const CardsTemplateContenu2 = [
@@ -103,7 +107,11 @@ export const CardsTemplateContenu2 = [
     fonCardTemplate: "bg-[#35e71621]",
     titreCrdTemplate: " SkillHub",
     DesctiptionTemplate: "Modern Sass - Marketing landing page",
-    prixTemplate: "80.000 XOF",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
     handlePriceTo: "",
   },
 
@@ -112,7 +120,7 @@ export const CardsTemplateContenu2 = [
     handleBuy: "",
     imageTemplate: Template14,
     fonCardTemplate: "bg-[#f8d7032f]",
-    titreCrdTemplate: " Nouveau template 1",
+    titreCrdTemplate: " Food Delivred",
     DesctiptionTemplate: "Modern Sass - Marketing landing page",
     prixTemplate: (
       <p className="text-green-700 font-bold italic">
@@ -126,7 +134,7 @@ export const CardsTemplateContenu2 = [
     handleBuy: "",
     imageTemplate: Template13,
     fonCardTemplate: "bg-[#f81b032f]",
-    titreCrdTemplate: " Nouveau template 2",
+    titreCrdTemplate: " Lecturama",
     DesctiptionTemplate: "Modern Sass - Marketing landing page",
     prixTemplate: (
       <p className="text-green-700 font-bold italic">
@@ -158,7 +166,11 @@ export const CardsTemplateContenu2 = [
     fonCardTemplate: "bg-[#7c88cc60]",
     titreCrdTemplate: " Astrolus",
     DesctiptionTemplate: "Modern Marketing - startup complete website",
-    prixTemplate: "From $19.99 to $49.99",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
     handlePriceTo: "",
   },
   {
@@ -168,7 +180,11 @@ export const CardsTemplateContenu2 = [
     fonCardTemplate: "bg-[#cc7cc740]",
     titreCrdTemplate: " Ampire ",
     DesctiptionTemplate: "Simple Designer - Photographer portfolio",
-    prixTemplate: "$9.99",
+    prixTemplate: (
+      <p className="text-green-700 font-bold italic">
+        <span className="text-gray-500 font-light me-2">$0.00</span>Free
+      </p>
+    ),
     handlePriceTo: "",
   },
 
