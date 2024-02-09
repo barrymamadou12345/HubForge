@@ -45,7 +45,7 @@ export default function NavbarT() {
         {/* Modal */}
         {isModalOpen && (
           <div className="fixed inset-0 z-10 bg-black bg-opacity-50 flex items-center justify-center">
-            <div ref={menuRef} className="bg-white opacity-70 w-64 mt-64 mx-auto p-4 rounded-md">
+            <div ref={menuRef} className="bg-white w-full mt-64 mx-auto p-4 rounded-md">
               <nav>
                 <ul class="flex flex-col gap-5 items-center justify-between text-base text-gray-700 pt-4">
                   <li><a class="p-4 py-3 px-0 block font-bold" href="#">Home</a></li>
@@ -63,8 +63,7 @@ export default function NavbarT() {
             </div>
           </div>
         )}
-
-        <div class="hidden md:flex md:items-center md:w-auto w-full md:gap-4 " id="menu">
+        <div class="hidden md:flex md:items-center md:w-auto w-full md:gap-4" id="menu">
           <nav>
             <ul class="md:flex md:gap-5 items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
               <li><a class="md:p-4 py-3 px-0 block font-bold" href="#">Home</a></li>

@@ -12,7 +12,7 @@ export default function Section2({ sec2 }) {
         id={sec2}
         className="max-w-screen-xl  mx-auto px-4 py-6 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
       >
-        <div className="grid grid-cols-1 py-4 lg:grid-cols-2  rounded-3xl mt-28">
+        <div className="grid grid-cols-1 py-4 lg:grid-cols-2 rounded-3xl mt-28">
           <div class="max-w-xl text-start ltr:sm:text-left rtl:sm:text-right">
             <h1 class="text-3xl font-extrabold sm:text-5xl">
               Just focus on your business startegy

@@ -12,8 +12,8 @@ export default function Sect1() {
     <div className=''>
       <section className="py-0" id="home">
         <div className="bg-holder flex items-center bg-no-repeat d-none md:block bg-right-top bg-contain h-screen"style={{backgroundImage:`url(${BackgroundImage})`}}>
-          <div className=" pt-28 px-8 max-sm:pt-64 max-md:pt-72 md:min-h-0">
-            <div className="md:w-7/12 lg:w-6/12 px-2 py-6 text-center md:text-left">
+          <div className="pt-28 px-8 max-sm:pt-64 md:min-h-0">
+            <div className="w-7/12 w-6/12 md:w-full max-sm:w-full max-lg-full max-lg:mt-[400px] px-2 py-6 text-center md:text-left">
               <h1 className="mt-6 mb-4 text-4xl md:text-6xl lg:text-7xl font-semibold leading-snug md:leading-normal">Today's research, <br className="block lg:hidden xl:block"/>tomorrow's innovation</h1>
               <p className="mb-4 text-xl">Accelerating research discovery to shape a better future </p>
               <div className="pt-3">
@@ -27,13 +27,13 @@ export default function Sect1() {
         </div>
       </section>
       <section>
-      <div className="mx-auto  mt-10 max-sm:mt-2 ">
+      <div className="mx-auto max-lg:mt-[350px] mt-10 md:mt-[300px] sm:mt-[120px] ">
         <div className="text-center justify-center">
           <div className="col-auto text-5xl">
             <h1 className="font-semibold text-amber-300">Our <span className="text-fuchsia-900">Resources</span></h1>
           </div>
         </div>
-        <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:mt-24 max-sm:mt-5 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:mt-24 max-sm:mt-5 ">
           <div className=" mb-4 mb-lg-0 text-center">
             <div className="px-6 px-lg-3">
               <img className="object-cover object-center w-24 h-24 mx-auto mb-4" src={Researchers} alt="Researchers" />

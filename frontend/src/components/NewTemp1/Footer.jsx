@@ -6,7 +6,6 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa6";
 
-
 export default function Footer() {
   return (
     <div >
