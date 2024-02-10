@@ -36,12 +36,12 @@ export const TotalTemplates = () => {
       <div className="w-full flex justify-center mb-20">
         <Link to="/">
           <button
-            className={`text-white font-bold px-10 rounded-full hover:bg-[#161818] py-3 text-2xl flex bg-[#20143de4] ${
+            className={`text-white font-bold px-10 italic rounded-full hover:bg-[#161818] py-3 text-2xl flex bg-[#20143de4] ${
               darkMode ? "bg-blue-800" : ""
             }`}
           >
             <span>
-              <FaArrowLeft className="text-4xl pe-4  animate-pulse" />
+              <FaArrowLeft className="text-4xl pe-4 animate-pulse" />
             </span>
             Accueil
           </button>
