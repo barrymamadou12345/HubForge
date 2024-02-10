@@ -12,6 +12,7 @@ export const CardesTemplate = ({
   titreCrdTemplate,
   DesctiptionTemplate,
   prixTemplate,
+  telechargeLink,
 }) => {
   const [ishover, setIsHover] = useState(false);
   const { darkMode } = useAppContext();
@@ -48,11 +49,12 @@ export const CardesTemplate = ({
          } ${ishover ? "block" : "hidden "}`}
       >
         <Link
-          to={handleBuy}
-          className={`bg-blue-950 mt-5 hover:scale-105 transition-all duration-500 text-blanc pb-1 text-xl rounded-full flex items-center h-[40px] px-5`}
+          to={telechargeLink}
+          className="bg-blue-950 mt-5 hover:scale-105 transition-all duration-500 text-blanc pb-1 text-xl rounded-full flex items-center h-[40px] px-5"
         >
-          Buy
+          Telecharger
         </Link>
+
         <Link
           to={HandlePreview}
           target="_blank"

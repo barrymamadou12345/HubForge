@@ -24,7 +24,7 @@ export default function NavbarT() {
 
   return (
     <div className=' max-w-screen-xl mx-auto'>
-      <header class="lg:px-16 px-4 right-0 left-0 top-0 flex fixed max-sm:shadow px-4 sm:px-6 lg:px-8 flex-wrap items-center py-2 " style={{ backdropFilter: 'blur(10px)' }}>
+      <header class="lg:px-16 px-4 right-0 left-0 top-0 flex fixed max-sm:shadow  sm:px-6 flex-wrap items-center py-2 " style={{ backdropFilter: 'blur(10px)' }}>
         <div className='w-3 h-7 bg-fuchsia-900'></div>
         <div className='w-2 m-2 h-4 bg-fuchsia-900'></div>
         <div class="flex-1 flex justify-between items-center">

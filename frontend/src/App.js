@@ -1,3 +1,4 @@
+// App.jsx
 import React from "react";
 import "./App.css";
 import {
@@ -15,6 +16,7 @@ import Ampire from "./components/TemplateNum3/Ampire";
 import Aria from "./components/TemplateNum4/Aria";
 import { RenduNewTemplate } from "./components/NewTemplate/RenduNewTemplate";
 import { TotalTemplates } from "./components/Templates/TotalTemplates";
+import TelechargePage from "./components/Templates/TelechargePage";
 
 function App() {
   return (
@@ -22,18 +24,23 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route index element={<PageAccueil />} />
             <Route path="/" element={<PageAccueil />} />
-            <Route path="/template1" element={<Alt />} />
-            <Route path="/template2" element={<EnsembleTemp2 />} />
+            <Route
+              path="/telecharge/:templateId"
+              element={<TelechargePage />}
+            />
+            <Route path="/template1" element={<RenduNewTemplate />} />
+            <Route path="/template2" element={<PageTemplate1 />} />
+            <Route path="/template3" element={<PageTemplate3 />} />
+            <Route path="/template4" element={<EnsembleTemp2 />} />
+            <Route path="/template5" element={<Aria />} />
+            <Route path="/template6" element={<Ampire />} />
+            <Route path="/template7" element={<PageTemplate2 />} />
+            <Route path="/template8" element={<Alt />} />
+            <Route path="/template9" element={<PageTemplate4 />} />
+            <Route path="/template10" element={<PageTemplate4 />} />
+            <Route path="/template11" element={<PageTemplate4 />} />
             <Route path="/templatesPage" element={<TotalTemplates />} />
-            <Route path="/template3" element={<Ampire />} />
-            <Route path="/template4" element={<Aria />} />
-            <Route path="/template5" element={<PageTemplate1 />} />
-            <Route path="/template6" element={<PageTemplate2 />} />
-            <Route path="/template7" element={<PageTemplate3 />} />
-            <Route path="/template8" element={<PageTemplate4 />} />
-            <Route path="/template9" element={<RenduNewTemplate />} />
           </Routes>
         </BrowserRouter>
       </div>

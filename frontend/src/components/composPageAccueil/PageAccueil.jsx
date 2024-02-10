@@ -5,12 +5,6 @@ import { CardesTemplate } from "./CardesTemplate";
 import { FooterPageAcueil } from "./FooterPageAcueil";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Template5 from "../../assets/images/template5.jpg";
-import Template6 from "../../assets/images/template6.jpg";
-import Template7 from "../../assets/images/template7.jpg";
-import Template8 from "../../assets/images/template8.jpg";
-import Template9 from "../../assets/images/template9.jpg";
-import Template11 from "../../assets/images/template11.jpg";
 import { CardsTemplateContenu2 } from "../Utils/UtilsTemplates";
 
 export const PageAccueil = () => {
