@@ -33,7 +33,7 @@ export const CardsTemplateContenu = [
   },
 
   {
-    HandlePreview: " https://stage-projet3.vercel.app/",
+    HandlePreview: "https://stage-projet3.vercel.app/",
     handleBuy:
       "https://github.com/SamLaye/StageProjet3/archive/refs/heads/main.zip",
     imageTemplate: Template13,
