@@ -21,7 +21,7 @@ export default function Sect2() {
                   </div>
                 </div>
              
-            </div>
+            </div> 
           </div>
         </div>
       </section>
