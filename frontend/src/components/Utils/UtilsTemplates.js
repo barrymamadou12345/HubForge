@@ -10,7 +10,7 @@ import Template8 from "../../assets/images/template2.jpg";
 import Template9 from "../../assets/images/template9.jpg";
 import Template10 from "../../assets/images/template10.jpg";
 import Template11 from "../../assets/images/template11.jpg";
-import Template12 from "../../assets/images/template12.jpg";
+import Template15 from "../../assets/images/template15.jpg";
 import Template13 from "../../assets/images/template6.jpg";
 // import Template8 from "../../assets/images/template8.jpg";
 
@@ -161,9 +161,9 @@ export const CardsTemplateContenu2 = [
     HandlePreview: "/template7",
     handleBuy: "",
     handleDownloadHtml: "",
-    imageTemplate: Template4,
-    fonCardTemplate: "bg-[#03f8ec2f]",
-    titreCrdTemplate: " Nouveau template 3",
+    imageTemplate: Template15,
+    fonCardTemplate: "bg-[#008cff2f]",
+    titreCrdTemplate: " Changelly",
     DesctiptionTemplate: "Modern Sass - Marketing landing page",
     prixTemplate: (
       <p className="text-green-700 font-bold italic">
