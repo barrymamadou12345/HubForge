@@ -5,12 +5,6 @@ import { CardesTemplate } from "./CardesTemplate";
 import { FooterPageAcueil } from "./FooterPageAcueil";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Template5 from "../../assets/images/template5.jpg";
-import Template6 from "../../assets/images/template6.jpg";
-import Template7 from "../../assets/images/template7.jpg";
-import Template8 from "../../assets/images/template8.jpg";
-import Template9 from "../../assets/images/template9.jpg";
-import Template11 from "../../assets/images/template11.jpg";
 import { CardsTemplateContenu2 } from "../Utils/UtilsTemplates";
 
 export const PageAccueil = () => {
@@ -52,7 +46,7 @@ export const PageAccueil = () => {
         <div className="w-full flex justify-center mb-20">
           <Link to="/templatesPage">
             <button
-              className={`text-white font-bold px-10 rounded-full hover:bg-[#3ba18d] animate-pulse py-4 text-2xl flex bg-[#171124c2] ${
+              className={`text-white font-bold px-10 rounded-full hover:bg-[#161818] py-3 text-2xl flex bg-[#20143de4] ${
                 darkMode ? "bg-blue-800" : ""
               }`}
             >

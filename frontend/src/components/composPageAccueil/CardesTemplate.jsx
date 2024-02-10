@@ -12,6 +12,7 @@ export const CardesTemplate = ({
   titreCrdTemplate,
   DesctiptionTemplate,
   prixTemplate,
+  telechargeLink,
 }) => {
   const [ishover, setIsHover] = useState(false);
   const { darkMode } = useAppContext();
@@ -29,31 +30,31 @@ export const CardesTemplate = ({
       onMouseLeave={hoveredMethode}
     >
       <div
-        className={` rounded-xl p-10 max-sm:w-[92%] max-sm:h-[400px]  mx-auto my-2  ${fonCardTemplate} flex justify-center items-center h-[475px] w-[575px]`}
+        className={` rounded-xl p-10 max-sm:w-[92%] max-sm:h-[400px]  mx-auto my-2  ${fonCardTemplate} flex justify-center items-center h-[475px] w-[550px]`}
       >
         <img
           src={imageTemplate}
           alt="template1"
           className={` ${
             ishover
-              ? "h-[400px] w-[500px] transition-all duration-700 max-sm:h-[360px] max-sm:w-[100%]"
-              : "h-[375px] w-[475px] max-sm:h-[320px] max-sm:w-[93%]   transition-all  duration-700 "
-          } object-fil z-0`}
+              ? "hover:scale-105 transition-all duration-700 "
+              : "  transition-all  duration-700 "
+          } h-[400px] w-[500px] object-fil max-sm:h-[330px] max-sm:w-[100%] z-0`}
         />
       </div>
       <div
-        className={`rounded-xl w-[592px] max-sm:w-[91%]  max-sm:ms-[20px] mx-1 absolute flex
+        className={`rounded-xl w-[542px] max-sm:w-[91%]  max-sm:ms-[20px] mx-1 absolute flex
          h-[78px] justify-center -mt-[88px] ${
            darkMode ? "bg-gray-700" : "bg-white"
          } ${ishover ? "block" : "hidden "}`}
       >
         <Link
-          to={handleBuy}
-          target="_blank"
-          className={`bg-blue-500 mt-5 hover:scale-105 transition-all duration-500 text-blanc pb-1 text-xl rounded-full flex items-center h-[40px] px-5`}
+          to={telechargeLink}
+          className="bg-blue-950 mt-5 hover:scale-105 transition-all duration-500 text-blanc pb-1 text-xl rounded-full flex items-center h-[40px] px-5"
         >
-          Buy
+          Telecharger
         </Link>
+
         <Link
           to={HandlePreview}
           target="_blank"
