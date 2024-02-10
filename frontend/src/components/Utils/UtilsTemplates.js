@@ -159,8 +159,10 @@ export const CardsTemplateContenu2 = [
   },
   {
     HandlePreview: "/template7",
-    handleBuy: "",
-    handleDownloadHtml: "",
+    handleBuy:
+      "https://github.com/barrymamadou12345/HubForgeTEMPLATES/archive/refs/heads/Changelly.zip",
+    handleDownloadHtml:
+      "https://github.com/kessoba/changelly/archive/refs/heads/main.zip",
     imageTemplate: Template15,
     fonCardTemplate: "bg-[#008cff2f]",
     titreCrdTemplate: " Changelly",
