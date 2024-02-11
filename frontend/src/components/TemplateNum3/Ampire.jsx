@@ -1,4 +1,4 @@
-import React, { } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 import { IoIosMoon } from "react-icons/io";
@@ -6,28 +6,28 @@ import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
 
-import team from "../../assets/Ampire/team.svg";
+import team from "../../assets/Ampire/team.avif";
 import airbnb from "../../assets/Ampire/airbnb.svg";
-import coty from "../../assets/Ampire/coty.svg";
+import unis from "../../assets/Ampire/unis.avif";
 import ge from "../../assets/Ampire/ge.svg";
-import lilly from "../../assets/Ampire/lilly.png";
+import idee from "../../assets/Ampire/idee.avif";
 import microsoft from "../../assets/Ampire/microsoft.svg";
-import avatar from "../../assets/Ampire/avatar.webp";
-import avatar1 from "../../assets/Ampire/avatar-1.webp";
-import avatar2 from "../../assets/Ampire/avatar-2.webp";
-import avatar3 from "../../assets/Ampire/avatar-3.webp";
-import avatar4 from "../../assets/Ampire/avatar-4.webp";
-import tailushome from "../../assets/Ampire/tailus-home.webp";
+import avatar from "../../assets/Ampire/avatar.avif";
+import avatar1 from "../../assets/Ampire/avatar-1.avif";
+import avatar2 from "../../assets/Ampire/avatar-2.avif";
+import avatar3 from "../../assets/Ampire/avatar-3.avif";
+import avatar4 from "../../assets/Ampire/avatar-4.avif";
+import tailushome from "../../assets/Ampire/tailus-home.avif";
 import tailushomedark from "../../assets/Ampire/tailus-home-dark.webp";
 import tailuscontact from "../../assets/Ampire/tailus-contact.webp";
-import ctacards from "../../assets/Ampire/cta-cards.webp";
+import ctacards from "../../assets/Ampire/cta-cards.avif";
 import ampire from "../../assets/Ampire/ampire.png";
 
 export default function Ampire() {
   return (
     <>
       <div
-        className={`min-h-screen bg-white selection:bg-primary/10 selection:text-primary `}
+        className={`min-h-screen bg-white selection:bg-green-500/10 selection:text-green-500 `}
       >
         <header>
           <nav
@@ -74,7 +74,7 @@ export default function Ampire() {
                       <li>
                         <a
                           to="./pages/solution.html"
-                          className="block transition hover:text-primary md:px-4"
+                          className="block transition hover:text-green-500 md:px-4"
                         >
                           <span>Solution</span>
                         </a>
@@ -82,23 +82,23 @@ export default function Ampire() {
                       <li>
                         <a
                           to="./pages/customers.html"
-                          className="block transition hover:text-primary  md:px-4"
+                          className="block transition hover:text-green-500  md:px-4"
                         >
-                          <span>Customers</span>
+                          <span>Clients</span>
                         </a>
                       </li>
                       <li>
                         <a
                           to="./pages/pricing.html"
-                          className="block transition hover:text-primary md:px-4"
+                          className="block transition hover:text-green-500 md:px-4"
                         >
-                          <span>Pricing</span>
+                          <span>Prix</span>
                         </a>
                       </li>
                       <li>
                         <a
                           to="./pages/blog.html"
-                          className="block transition hover:text-primary  md:px-4"
+                          className="block transition hover:text-green-500  md:px-4"
                         >
                           <span>Blog</span>
                         </a>
@@ -106,21 +106,21 @@ export default function Ampire() {
                       <li>
                         <a
                           to="./pages/about.html"
-                          className="block transition hover:text-primary md:px-4"
+                          className="block transition hover:text-green-500 md:px-4"
                         >
-                          <span>Company</span>
+                          <span>Entreprise</span>
                         </a>
                       </li>
                     </ul>
                   </div>
 
-                  <div className="mt-12 -ml-1 flex w-full flex-col space-y-2 border-primary/10 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
+                  <div className="mt-12 -ml-1 flex w-full flex-col space-y-2 border-green-500/10 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
                     <Link
                       to="#"
-                      className="relative ml-auto flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100 "
+                      className="relative ml-auto flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-green-500 before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100 "
                     >
-                      <span className="relative text-sm font-semibold text-white  lg:text-primary">
-                        Get started
+                      <span className="relative text-sm font-semibold text-white  lg:text-green-500">
+                        Commencer
                       </span>
                     </Link>
                   </div>
@@ -135,9 +135,7 @@ export default function Ampire() {
                   <button
                     aria-label="switche theme"
                     className="switcher group relative flex h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 "
-                  >
-                    
-                  </button>
+                  ></button>
                 </div>
               </div>
             </div>
@@ -148,7 +146,7 @@ export default function Ampire() {
           <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
             <div className="relative">
               <h1 className="text-center text-5xl font-bold text-blue-900 sm:text-6xl lg:text-left lg:text-7xl">
-                Design, Build,
+                Conception, Construction,
                 <span className="relative">
                   <svg
                     className="absolute inset-x-0 -bottom-1 w-full opacity-50"
@@ -156,8 +154,8 @@ export default function Ampire() {
                     id="Layer_1"
                     viewBox="0 0 260 15.6"
                   ></svg>
-                  <span className="relative bg-gradient-to-r from-primary to-secondaryLight bg-clip-text text-transparent md:px-2">
-                    <span className="text-[#957fef]">Scale</span>
+                  <span className="relative bg-gradient-to-r from-green-500 to-secondaryLight bg-clip-text text-transparent md:px-2">
+                    <span className="text-green-500">Expansion</span>
                   </span>
                 </span>
               </h1>
@@ -165,12 +163,13 @@ export default function Ampire() {
               <div className="relative items-center gap-12 lg:flex">
                 <div className="text-center sm:mx-auto sm:w-11/12 md:mt-12 md:w-4/5 lg:mt-0 lg:mr-auto lg:w-6/12 lg:text-left">
                   <p className="mt-12 text-lg text-gray-600 sm:text-xl">
-                    Computers used to be magical. But much of that magic has
-                    been lost over time, replaced by subpar tools and practices
-                    that slow teams down and hold great work back.
+                    Les ordinateurs étaient autrefois magiques. Mais une grande
+                    partie de cette magie s'est estompée au fil du temps,
+                    remplacée par des outils et des pratiques médiocres qui
+                    ralentissent les équipes et freinent le travail de qualité.
                   </p>
                   <form action="" className="mt-12">
-                    <div className="relative flex items-center rounded-full border border-primary/20 bg-white p-1 px-2 shadow-md focus-within:ring-2 md:p-2 lg:pr-3">
+                    <div className="relative flex items-center rounded-full border border-green-500/20 bg-white p-1 px-2 shadow-md focus-within:ring-2 md:p-2 lg:pr-3">
                       <div className="py-3 pl-4 lg:pl-5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -193,10 +192,10 @@ export default function Ampire() {
                         <button
                           type="submit"
                           title="Start buying"
-                          className="relative ml-auto h-12 w-16 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 active:duration-75 active:before:scale-95 sm:w-auto sm:px-6"
+                          className="relative ml-auto h-12 w-16 before:absolute before:inset-0 before:rounded-full before:bg-green-500 before:transition before:duration-300 active:duration-75 active:before:scale-95 sm:w-auto sm:px-6"
                         >
                           <span className="relative hidden w-max font-semibold text-white md:block">
-                            Get Started
+                            Commencer
                           </span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -212,12 +211,12 @@ export default function Ampire() {
                   </form>
                   <div className="mt-12 hidden lg:block">
                     <span className="text-gray-700 ">
-                      From the most talented
+                      La plus talentueuse des
                       <a
                         to="customers.html"
-                        className="text-primary underline "
+                        className="text-green-500 underline "
                       >
-                        Team
+                        Equipe
                       </a>
                       !
                     </span>
@@ -225,36 +224,36 @@ export default function Ampire() {
                       <img
                         src={avatar}
                         alt="user avatar"
-                        width="50"
-                        height="50"
+                        width="60"
+                        height="60"
                         className="rounded-full border-4 border-gray-100 relative z-[1]"
                       />
                       <img
                         src={avatar1}
                         alt="user avatar"
-                        width="50"
-                        height="50"
+                        width="60"
+                        height="60"
                         className="rounded-full border-4 border-gray-100 relative z-[2] -left-2"
                       />
                       <img
                         src={avatar2}
                         alt="user avatar"
-                        width="50"
-                        height="50"
+                        width="60"
+                        height="60"
                         className="rounded-full border-4 border-gray-100 relative z-[3] -left-4"
                       />
                       <img
                         src={avatar3}
                         alt="user avatar"
-                        width="50"
-                        height="50"
+                        width="60"
+                        height="60"
                         className="rounded-full border-4 border-gray-100 relative z-[4] -left-6"
                       />
                       <img
                         src={avatar4}
                         alt="user avatar"
-                        width="50"
-                        height="50"
+                        width="60"
+                        height="60"
                         className="rounded-full border-4 border-gray-100 relative z-[5] -left-8"
                       />
                     </div>
@@ -270,56 +269,6 @@ export default function Ampire() {
                   />
                 </div>
               </div>
-              <div className="mt-12 border-y border-gray-100 py-8 text-center md:py-12 xl:mt-20">
-                <a
-                  to="customers.html"
-                  className="text-sm font-semibold tracking-wider text-gray-800"
-                >
-                  TRUSTED BY YOUR FAVORED TOP TECHS COMPANIES
-                </a>
-                <div className="mt-8 flex flex-wrap justify-center gap-6 brightness-0 contrast-5 grayscale sm:justify-between lg:gap-24">
-                  <img
-                    className="h-8 w-auto lg:h-10 lg:w-auto"
-                    src={airbnb}
-                    loading="lazy"
-                    alt="airbnb"
-                    width=""
-                    height=""
-                  />
-                  <img
-                    className="h-8 w-auto lg:h-10 lg:w-auto"
-                    src={coty}
-                    loading="lazy"
-                    alt="bissell"
-                    width=""
-                    height=""
-                  />
-                  <img
-                    className="h-8 w-auto lg:h-10 lg:w-auto"
-                    src={ge}
-                    loading="lazy"
-                    alt="ge"
-                    width="100"
-                    height="100"
-                  />
-                  <img
-                    className="h-8 w-auto lg:h-10 lg:w-auto"
-                    src={lilly}
-                    loading="lazy"
-                    alt="lilly"
-                    width=""
-                    height=""
-                  />
-                  <img
-                    className="h-8 w-auto lg:h-10 lg:w-auto"
-                    src={microsoft}
-                    loading="lazy"
-                    alt="microsoft"
-                    width=""
-                    height=""
-                  />
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -328,12 +277,13 @@ export default function Ampire() {
           <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
             <div className="text-center">
               <h2 className="text-3xl font-bold text-gray-800 md:text-4xl xl:text-5xl">
-                For growing teams and organizations
+                Pour les équipes et les organisations en pleine croissance
               </h2>
               <p className="mx-auto mt-6 text-gray-700 md:w-3/4 lg:w-3/5">
-                A growing team doesn't need to mean growing pains. Privacy, and
-                the right tool for every step of your journey - Jira Software
-                friction - company size.
+                Une équipe en croissance ne doit pas nécessairement signifier
+                des difficultés croissantes. La confidentialité et l'outil
+                adapté à chaque étape de votre parcours - Jira Software, sans
+                friction - quelle que soit la taille de votre entreprise.
               </p>
 
               <div
@@ -351,10 +301,10 @@ export default function Ampire() {
                   aria-controls="panel-0"
                   tabIndex="0"
                   title="tab item"
-                  className="tab relative block rounded-full py-2.5 px-4 hover:text-primary"
+                  className="tab relative block rounded-full py-2.5 px-4 hover:text-green-500"
                 >
                   <span className="m-auto block w-max text-sm font-medium tracking-wider">
-                    First Tab
+                    Onglet 1
                   </span>
                 </button>
                 <button
@@ -363,10 +313,10 @@ export default function Ampire() {
                   aria-controls="panel-1"
                   tabIndex="-1"
                   title="tab item"
-                  className="tab relative block rounded-full py-2.5 px-4 hover:text-primary"
+                  className="tab relative block rounded-full py-2.5 px-4 hover:text-green-500"
                 >
                   <span className="m-auto block w-max text-sm font-medium tracking-wider">
-                    Second Tab
+                    Onglet 2
                   </span>
                 </button>
                 <button
@@ -375,10 +325,10 @@ export default function Ampire() {
                   aria-controls="panel-2"
                   tabIndex="-1"
                   title="tab item"
-                  className="tab relative block rounded-full py-2.5 px-4 hover:text-primary"
+                  className="tab relative block rounded-full py-2.5 px-6 hover:text-green-500"
                 >
                   <span className="m-auto block w-max text-sm font-medium tracking-wider">
-                    Third Tab
+                    Onglet 3
                   </span>
                 </button>
               </div>
@@ -392,34 +342,33 @@ export default function Ampire() {
                   >
                     <div>
                       <h3 className="text-2xl font-bold text-gray-900 ">
-                        Make work flow across teams while connecting back to
-                        company goals
+                        Faire circuler le travail à travers les équipes tout en
+                        le reliant aux objectifs de l'entreprise.
                       </h3>
                       <p className="mt-8 text-gray-600">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Eum omnis voluptatem accusantium nemo perspiciatis
-                        delectus atque autem! repellat expedita consequatur!
-                        Officiis id consequatur atque doloremque!
+                        Optimisez la collaboration inter-équipes en
+                        synchronisant votre flux de travail avec les objectifs
+                        stratégiques de votre entreprise, garantissant ainsi une
+                        progression fluide et alignée vers le succès.
                       </p>
                       <div className="mt-12 space-y-6">
                         <div className="flex items-center gap-6">
                           <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4">
                             <img
-                              className="m-auto h-8 w-auto"
-                              src="https://cdn-icons-png.flaticon.com/512/4727/4727266.png"
+                              className="m-auto h-18 w-20"
+                              src={unis}
                               alt="icon illustration"
                               loading="lazy"
-                              width="512"
-                              height="512"
                             />
                           </div>
                           <div className="w-[calc(100%-7.5rem)]">
                             <h4 className="text-lg font-semibold text-gray-800 ">
-                              Together as one
+                              Unis tous ensemble
                             </h4>
                             <p className="mt-1 text-gray-600">
-                              Accusantium nemo perspiciatis delectus atque
-                              autem!
+                              Unis tous ensemble pour atteindre de nouveaux
+                              sommets, ensemble nous formons une équipe solide
+                              prête à relever tous les défis.!
                             </p>
                           </div>
                         </div>
@@ -427,8 +376,8 @@ export default function Ampire() {
                         <div className="flex items-center gap-6">
                           <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4">
                             <img
-                              className="m-auto h-8 w-auto"
-                              src="https://cdn-icons-png.flaticon.com/512/584/584796.png"
+                              className="m-auto h-18 w-20 rounded-full"
+                              src={idee}
                               alt="icon illustration"
                               loading="lazy"
                               width="512"
@@ -437,11 +386,13 @@ export default function Ampire() {
                           </div>
                           <div className="w-[calc(100%-7.5rem)]">
                             <h4 className="text-lg font-semibold text-gray-800 ">
-                              New ideas
+                              Nouveaux idées
                             </h4>
                             <p className="mt-1 text-gray-600">
-                              Accusalectus atque autem accusantium nemo
-                              perspiciatis delectus atque autem!
+                              Explorez de nouvelles idées et libérez votre
+                              créativité avec notre plateforme innovante, où
+                              chaque concept devient une opportunité de
+                              transformation.
                             </p>
                           </div>
                         </div>
@@ -454,22 +405,22 @@ export default function Ampire() {
                   >
                     <div>
                       <h3 className="text-2xl font-bold text-gray-900 md:text-3xl lg:text-[30px]">
-                        Make work flow across teams while connecting back to
-                        company goals
+                        Facilitez la circulation du travail entre les équipes
+                        tout en les connectant aux objectifs de l'entreprise
                       </h3>
 
                       <p className="mt-8 text-gray-600">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Eum omnis voluptatem accusantium nemo perspiciatis
-                        delectus atque autem! repellat expedita consequatur!
-                        Officiis id consequatur atque doloremque!
+                        Transformez la façon dont votre entreprise fonctionne en
+                        facilitant la circulation harmonieuse du travail entre
+                        les équipes, tout en les connectant de manière
+                        transparente aux objectifs stratégiques de l'entreprise.
                       </p>
                       <div className="mt-12 space-y-6">
                         <div className="flex items-center gap-6">
                           <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4">
                             <img
                               className="m-auto h-8 w-auto"
-                              src="https://cdn-icons-png.flaticon.com/512/6106/6106288.png"
+                              src={""}
                               alt="icon illustration"
                               loading="lazy"
                               width="512"
@@ -636,25 +587,30 @@ export default function Ampire() {
               </div>
               <div className="md:7/12 lg:w-6/12">
                 <h2 className="text-3xl font-bold text-gray-800 md:text-4xl xl:text-5xl">
-                  Development is carried out by passionate developers
+                  Le développement est réalisé par des passionnés.
                 </h2>
                 <p className="mt-8 text-gray-600">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-                  omnis voluptatem accusantium nemo perspiciatis delectus atque
-                  autem! repellat expedita consequatur! Officiis id consequatur
-                  atque doloremque!
+                  Facilitez la circulation harmonieuse du travail au sein de
+                  votre organisation, permettant ainsi à chaque équipe de
+                  s'aligner efficacement sur les objectifs stratégiques de
+                  l'entreprise. Avec notre solution intégrée, vos équipes
+                  peuvent collaborer de manière transparente, partageant des
+                  idées et des ressources de manière fluide, tout en restant
+                  toujours ancrées dans la vision et les objectifs globaux de
+                  l'entreprise.
                 </p>
                 <p className="mb-12 mt-4 text-gray-600">
-                  Nobis minus voluptatibus pariatur dignissimos libero quaerat
-                  iure expedita at? Asperiores nemo possimus nesciunt dicta
-                  veniam aspernatur quam mollitia.
+                  En unissant les efforts de chaque département, nous
+                  transformons les défis en opportunités et favorisons une
+                  croissance durable, car ensemble, nous atteignons de nouveaux
+                  sommets.
                 </p>
                 <a
                   to="./pages/contact.html"
-                  className="relative flex h-11 w-max items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 active:duration-75 active:before:scale-95"
+                  className="relative flex h-11 w-max items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-green-500 before:transition-transform before:duration-300 active:duration-75 active:before:scale-95"
                 >
                   <span className="relative text-base font-semibold text-white">
-                    Get started
+                    Commencer
                   </span>
                 </a>
               </div>
@@ -667,18 +623,19 @@ export default function Ampire() {
             aria-hidden="true"
             className="absolute inset-0 top-60 grid grid-cols-2 -space-x-52 opacity-50"
           >
-            <div className="h-60 bg-gradient-to-br from-primary to-purple-400 blur-[106px]"></div>
+            <div className="h-60 bg-gradient-to-br from-green-500 to-purple-400 blur-[106px]"></div>
             <div className="h-40 bg-gradient-to-r from-cyan-400 to-sky-300 blur-[106px]"></div>
           </div>
           <div className="relative mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
             <div className="text-center">
               <h2 className="text-3xl font-bold text-gray-800 md:text-4xl xl:text-5xl">
-                A technology-first approach
+                Une approche axée sur la technologie
               </h2>
               <p className="mx-auto mt-6 text-gray-700 md:w-3/4 lg:w-3/5">
-                A growing team doesn't need to mean growing pains. Privacy, and
-                the right tool for every step of your journey - Jira Software
-                friction - company size.
+                Une équipe en pleine expansion n'implique pas nécessairement des
+                difficultés croissantes. Avec Jira Software, trouvez la
+                confidentialité et l'outil adéquat à chaque étape de votre
+                progression, quel que soit la taille de votre entreprise.
               </p>
             </div>
             <div className="mt-16 grid gap-8 sm:mx-auto sm:w-2/3 md:w-full md:grid-cols-2 lg:grid-cols-3">
@@ -693,13 +650,18 @@ export default function Ampire() {
                   />
                   <div className="space-y-6">
                     <h3 className="text-2xl font-semibold text-gray-800 transition">
-                      First feature
+                      Première fonctionnalité
                     </h3>
                     <p className="text-gray-600">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Saepe nesciunt neque culpa hic illum ab qui error
-                      repellendus asperiores unde ut ipsam perferendis nemo fuga
-                      cum, eum consectetur, magnam doloremque!
+                      Découvrez notre première fonctionnalité révolutionnaire
+                      conçue pour catalyser l'efficacité de votre équipe, tout
+                      en alignant chaque tâche et projet avec les objectifs
+                      stratégiques de votre entreprise. Grâce à cette innovation
+                      remarquable, vous pourrez non seulement améliorer la
+                      collaboration interne, mais également renforcer la
+                      cohésion et la synergie entre les différentes équipes,
+                      permettant ainsi à votre entreprise de prospérer et de
+                      réaliser son plein potentiel.
                     </p>
                     <a
                       aria-label="read more"
@@ -733,13 +695,18 @@ export default function Ampire() {
                   />
                   <div className="space-y-6">
                     <h3 className="text-2xl font-semibold text-gray-800 transition">
-                      Second feature
+                      Seconde fonctionnalité
                     </h3>
                     <p className="text-gray-600">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Saepe nesciunt neque culpa hic illum ab qui error
-                      repellendus asperiores unde ut ipsam perferendis nemo fuga
-                      cum, eum consectetur, magnam doloremque!
+                      Découvrez notre seconde fonctionnalité révolutionnaire
+                      conçue pour catalyser l'efficacité de votre équipe, tout
+                      en alignant chaque tâche et projet avec les objectifs
+                      stratégiques de votre entreprise. Grâce à cette innovation
+                      remarquable, vous pourrez non seulement améliorer la
+                      collaboration interne, mais également renforcer la
+                      cohésion et la synergie entre les différentes équipes,
+                      permettant ainsi à votre entreprise de prospérer et de
+                      réaliser son plein potentiel.
                     </p>
                     <a
                       aria-label="read more"
@@ -773,13 +740,18 @@ export default function Ampire() {
                   />
                   <div className="space-y-6">
                     <h3 className="text-2xl font-semibold text-gray-800 transition">
-                      Third feature
+                      Troisième fonctionnalité
                     </h3>
                     <p className="text-gray-600">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Saepe nesciunt neque culpa hic illum ab qui error
-                      repellendus asperiores unde ut ipsam perferendis nemo fuga
-                      cum, eum consectetur, magnam doloremque!
+                      Découvrez notre troisième fonctionnalité révolutionnaire
+                      conçue pour catalyser l'efficacité de votre équipe, tout
+                      en alignant chaque tâche et projet avec les objectifs
+                      stratégiques de votre entreprise. Grâce à cette innovation
+                      remarquable, vous pourrez non seulement améliorer la
+                      collaboration interne, mais également renforcer la
+                      cohésion et la synergie entre les différentes équipes,
+                      permettant ainsi à votre entreprise de prospérer et de
+                      réaliser son plein potentiel.
                     </p>
                     <a
                       aria-label="read more"
@@ -810,118 +782,15 @@ export default function Ampire() {
           <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
             <div className="text-center">
               <h2 className="text-3xl font-bold text-gray-800 md:text-4xl xl:text-5xl">
-                Trusted by leaders
+                Faites confiance aux leaders.
               </h2>
               <p className="mx-auto mt-6 text-gray-700 md:w-3/4 lg:w-3/5">
-                A growing team doesn't need to mean growing pains. Privacy, and
-                the right tool for every step of your journey - Jira Software
-                friction - company size.
+                Une équipe en pleine croissance n'implique pas nécessairement
+                des douleurs de croissance. Avec Jira Software, nous mettons
+                l'accent sur la confidentialité et vous fournissons l'outil
+                adéquat à chaque étape de votre parcours, sans accroc, quelle
+                que soit la taille de votre entreprise.
               </p>
-            </div>
-            <div className="mt-12 grid gap-8 md:grid-cols-2">
-              <div className="rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 sm:col-span-2 sm:px-12 lg:col-span-1 lg:row-span-2">
-                <div className="flex h-full flex-col justify-center space-y-6 md:space-y-8">
-                  <img
-                    className="mr-auto h-12 w-auto"
-                    src={microsoft}
-                    loading="lazy"
-                    alt="microsoft"
-                  />
-                  <p className="text-gray-600 md:text-lg lg:text-xl">
-                    <span className="font-serif">"</span> Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Quaerat repellat
-                    perspiciatis excepturi est. Non ipsum iusto aliquam
-                    consequatur repellat provident, omnis ut, sapiente
-                    voluptates veritatis cum deleniti repudiandae ad doloribus.
-                    <br />
-                    <br />
-                    Esse, sint sit aut ducimus ea ipsam velit saepe earum
-                    dolorem, dignissimos minima voluptate quo accusamus
-                    corporis, quaerat beatae aliquid. Impedit, accusamus.
-                    <span className="font-serif">"</span>
-                  </p>
-                  <div className="flex items-center gap-3">
-                    <img
-                      className="h-12 w-12 rounded-full"
-                      src={avatar2}
-                      loading="lazy"
-                      alt="user avatar"
-                      width="200"
-                      height="200"
-                    />
-                    <div>
-                      <h3 className="text-lg font-semibold leading-none text-gray-600">
-                        Andy Doe
-                      </h3>
-                      <span className="text-sm text-gray-500">
-                        Product Designer
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="space-y-6 rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10">
-                <img
-                  className="h-12 w-auto"
-                  src={airbnb}
-                  loading="lazy"
-                  alt="airbnb"
-                  width=""
-                  height=""
-                />
-                <p className="text-gray-600">
-                  <span className="font-serif">"</span>Sit amet consectetur
-                  adipisicing elit. Quaerat repellat perspiciatis excepturi est.
-                  Provident, omnis ut, sapiente veritatis cum deleniti
-                  repudiandae ad doloribus.
-                  <span className="font-serif">"</span>
-                </p>
-                <div className="flex items-center gap-3 text-left">
-                  <img
-                    className="h-12 w-12 rounded-full"
-                    src={avatar3}
-                    alt="user avatar"
-                    width="200"
-                    height="200"
-                    loading="lazy"
-                  />
-                  <div>
-                    <h3 className="text-lg font-semibold leading-none text-gray-600">
-                      Janet Doe
-                    </h3>
-                    <span className="text-sm text-gray-500">UX Designer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="space-y-6 rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10">
-                <img className="h-12 w-auto" src={ge} loading="lazy" alt="ge" />
-                <p className="text-gray-600">
-                  <span className="font-serif">"</span>Sit amet consectetur
-                  adipisicing elit. Quaerat repellat perspiciatis excepturi est.
-                  Provident, omnis ut, sapiente veritatis cum deleniti
-                  repudiandae ad doloribus.
-                  <span className="font-serif">"</span>
-                </p>
-                <div className="flex items-center gap-3 text-left">
-                  <img
-                    className="h-12 w-12 rounded-full"
-                    src={avatar4}
-                    alt="user avatar"
-                    width="200"
-                    height="200"
-                    loading="lazy"
-                  />
-                  <div>
-                    <h3 className="text-lg font-semibold leading-none text-gray-600">
-                      John Doe
-                    </h3>
-                    <span className="text-sm text-gray-500">
-                      Product Designer
-                    </span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -933,16 +802,17 @@ export default function Ampire() {
                 <div className="h-max py-16 md:w-6/12 xl:w-5/12">
                   <div className="text-center md:text-left">
                     <h2 className="text-3xl font-bold text-gray-800 md:w-max md:text-4xl xl:text-5xl">
-                      One step to improve <br />
-                      your workflow
+                      Un pas de plus vers <br />
+                      l'amelioration workflow
                     </h2>
                     <p className="mb-8 mt-6 text-gray-600">
-                      Praesentium, atque exercitationem dolorum, iste libero
-                      eaque animi illum magnam velit iusto quidem omnis quas! Ad
-                      expedita quaerat.
+                      notre solution innovante vous offre la possibilité de
+                      coordonner efficacement les activités de vos équipes tout
+                      en alignant chaque étape sur les objectifs stratégiques de
+                      votre entreprise.
                     </p>
                     <form action="" className="mt-12">
-                      <div className="relative flex items-center rounded-full border border-primary/20 bg-white p-1 px-2 shadow-md md:p-2 lg:pr-3">
+                      <div className="relative flex items-center rounded-full border border-green-500/20 bg-white p-1 px-2 shadow-md md:p-2 lg:pr-3">
                         <div className="py-3 pl-4 lg:pl-5">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -965,11 +835,10 @@ export default function Ampire() {
                           <button
                             type="button"
                             title="Start buying"
-                            className="relative ml-auto h-12 w-16 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 active:duration-75 active:before:scale-95  sm:w-auto sm:px-6"
+                            className="relative ml-auto h-12 w-16 before:absolute before:inset-0 before:rounded-full before:bg-green-500 before:transition before:duration-300 active:duration-75 active:before:scale-95  sm:w-auto sm:px-6"
                           >
                             <span className="relative hidden w-max font-semibold text-white md:block">
-                              
-                              Get Started
+                              Commencer
                             </span>
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -1022,7 +891,7 @@ export default function Ampire() {
                         to="https://tailus.io"
                         className="mt-2 inline-block text-sm"
                       >
-                        Designed by Tailus in Lubumbashi
+                        Designed <span className="text-red-500">Red Team</span> (stagiaire)
                       </Link>
                     </div>
 
@@ -1031,7 +900,7 @@ export default function Ampire() {
                         to="#"
                         target="blank"
                         aria-label="github"
-                        className="hover:text-primary"
+                        className="hover:text-green-500"
                       >
                         <span className="sr-only">Github</span>
                         <FaGithub />
@@ -1040,7 +909,7 @@ export default function Ampire() {
                         to="#"
                         target="blank"
                         aria-label="twitter"
-                        className="hover:text-primary"
+                        className="hover:text-green-500"
                       >
                         <FaTwitter />
                       </Link>
@@ -1048,10 +917,10 @@ export default function Ampire() {
                         to="#"
                         target="blank"
                         aria-label="medium"
-                        className="hover:text-primary"
+                        className="hover:text-green-500"
                       >
                         <span className="sr-only">Medium</span>
-                        <FaMedium s/>
+                        <FaMedium s />
                       </Link>
                     </div>
                   </div>
@@ -1060,29 +929,29 @@ export default function Ampire() {
                   <div className="grid grid-cols-2 gap-6 pb-16 sm:grid-cols-3 md:pl-16">
                     <div>
                       <h2 className="text-base font-medium text-gray-800">
-                        Company
+                        Entreprise
                       </h2>
                       <ul className="mt-4 list-inside space-y-4">
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
-                            About
+                            A propos
                           </a>
                         </li>
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
-                            Customers
+                            Clients
                           </a>
                         </li>
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             Enterprise
                           </a>
@@ -1090,7 +959,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             Partners
                           </a>
@@ -1098,7 +967,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             Jobs
                           </a>
@@ -1113,7 +982,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             About
                           </a>
@@ -1121,7 +990,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             Customers
                           </a>
@@ -1129,7 +998,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             Enterprise
                           </a>
@@ -1137,7 +1006,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             Partners
                           </a>
@@ -1145,7 +1014,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             Jobs
                           </a>
@@ -1160,7 +1029,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             About
                           </a>
@@ -1168,7 +1037,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             Customers
                           </a>
@@ -1176,7 +1045,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             Enterprise
                           </a>
@@ -1184,7 +1053,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             Partners
                           </a>
@@ -1192,7 +1061,7 @@ export default function Ampire() {
                         <li>
                           <a
                             to="#"
-                            className="text-sm duration-100 hover:text-primary"
+                            className="text-sm duration-100 hover:text-green-500"
                           >
                             Jobs
                           </a>
@@ -1201,7 +1070,7 @@ export default function Ampire() {
                     </div>
                   </div>
                   <div className="flex justify-between text-sm md:pl-16">
-                    <span>© tailus 2003 - Present</span>
+                    <span>© Red Team 2024 - Present</span>
                     <span>All right reserved</span>
                   </div>
                 </div>
