@@ -196,8 +196,7 @@ export default function Ampire() {
                           className="relative ml-auto h-12 w-16 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 active:duration-75 active:before:scale-95 sm:w-auto sm:px-6"
                         >
                           <span className="relative hidden w-max font-semibold text-white md:block">
-                            {" "}
-                            Get Started{" "}
+                            Get Started
                           </span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -213,13 +212,13 @@ export default function Ampire() {
                   </form>
                   <div className="mt-12 hidden lg:block">
                     <span className="text-gray-700 ">
-                      From the most talented{" "}
+                      From the most talented
                       <a
                         to="customers.html"
                         className="text-primary underline "
                       >
                         Team
-                      </a>{" "}
+                      </a>
                       !
                     </span>
                     <div class="relative mt-5 flex -space-x-1 children:h-10 children:w-10 children:rounded-full children:object-cover children:ring-4 children:ring-gray-100 dark:children:ring-gray-900">
@@ -833,12 +832,12 @@ export default function Ampire() {
                     amet consectetur adipisicing elit. Quaerat repellat
                     perspiciatis excepturi est. Non ipsum iusto aliquam
                     consequatur repellat provident, omnis ut, sapiente
-                    voluptates veritatis cum deleniti repudiandae ad doloribus.{" "}
+                    voluptates veritatis cum deleniti repudiandae ad doloribus.
                     <br />
                     <br />
                     Esse, sint sit aut ducimus ea ipsam velit saepe earum
                     dolorem, dignissimos minima voluptate quo accusamus
-                    corporis, quaerat beatae aliquid. Impedit, accusamus.{" "}
+                    corporis, quaerat beatae aliquid. Impedit, accusamus.
                     <span className="font-serif">"</span>
                   </p>
                   <div className="flex items-center gap-3">
@@ -875,7 +874,7 @@ export default function Ampire() {
                   <span className="font-serif">"</span>Sit amet consectetur
                   adipisicing elit. Quaerat repellat perspiciatis excepturi est.
                   Provident, omnis ut, sapiente veritatis cum deleniti
-                  repudiandae ad doloribus.{" "}
+                  repudiandae ad doloribus.
                   <span className="font-serif">"</span>
                 </p>
                 <div className="flex items-center gap-3 text-left">
@@ -901,7 +900,7 @@ export default function Ampire() {
                   <span className="font-serif">"</span>Sit amet consectetur
                   adipisicing elit. Quaerat repellat perspiciatis excepturi est.
                   Provident, omnis ut, sapiente veritatis cum deleniti
-                  repudiandae ad doloribus.{" "}
+                  repudiandae ad doloribus.
                   <span className="font-serif">"</span>
                 </p>
                 <div className="flex items-center gap-3 text-left">
@@ -969,8 +968,8 @@ export default function Ampire() {
                             className="relative ml-auto h-12 w-16 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 active:duration-75 active:before:scale-95  sm:w-auto sm:px-6"
                           >
                             <span className="relative hidden w-max font-semibold text-white md:block">
-                              {" "}
-                              Get Started{" "}
+                              
+                              Get Started
                             </span>
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -1023,7 +1022,7 @@ export default function Ampire() {
                         to="https://tailus.io"
                         className="mt-2 inline-block text-sm"
                       >
-                        Designed by Tailus in Lubumbashi{" "}
+                        Designed by Tailus in Lubumbashi
                       </Link>
                     </div>
 
