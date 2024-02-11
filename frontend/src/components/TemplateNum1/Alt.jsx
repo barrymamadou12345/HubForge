@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/ALT.svg";
-import img1 from "../../assets/img1.webp";
-import img2 from "../../assets/img2.webp";
-import img3 from "../../assets/img3.webp";
-import img4 from "../../assets/img4.webp";
-import img5 from "../../assets/img5.webp";
-import img6 from "../../assets/img6.webp";
+import logo from "../../assets/ALT.avif";
+import img1 from "../../assets/img1.avif";
+import img2 from "../../assets/img2.avif";
+import img3 from "../../assets/img3.avif";
+import img4 from "../../assets/img4.avif";
+import img5 from "../../assets/img5.jpg";
+import img6 from "../../assets/img6.avif";
 
 export default function Alt() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,11 +24,9 @@ export default function Alt() {
               <div className="relative z-30 flex w-full items-center justify-between overflow-hidden lg:w-auto">
                 <Link to="/">
                   <img
-                    className="h-8 w-8"
+                    className="h-20 w-20 rounded-full"
                     src={logo}
                     alt="alt img"
-                    width="120"
-                    height="120"
                   />
                 </Link>
                 <button
@@ -61,7 +59,7 @@ export default function Alt() {
                       to="/"
                       className="block py-1 px-6 hover:text-gray-800"
                     >
-                      Work
+                      Réalisations
                     </Link>
                   </li>
                   <li className="text-right transition duration-500 group-hover:text-gray-300 lg:text-left">
@@ -77,7 +75,7 @@ export default function Alt() {
                       to="/pages/about.html"
                       className="block py-1 px-6 hover:text-gray-800"
                     >
-                      About
+                      A propos
                     </Link>
                   </li>
                   <li className="text-right lg:pl-6 lg:text-left">
@@ -86,7 +84,7 @@ export default function Alt() {
                       className="group flex h-9 items-center overflow-hidden rounded border border-gray-400 py-1 px-4 text-sm text-primary transition-all duration-300 hover:rounded-md hover:border-primary hover:bg-primary hover:text-white"
                     >
                       <span className="relative flex items-center">
-                        Contact
+                        Nous contactez
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -113,15 +111,15 @@ export default function Alt() {
           <section className="pt-12 sm:pt-20 md:pt-32">
             <div className="mx-auto max-w-7xl px-4 sm:px-12 lg:px-8 xl:px-16">
               <h1 className="text-4xl font-bold text-gray-800 sm:text-5xl sm:leading-snug lg:text-6xl lg:leading-tight">
-                We build better <span className="text-primary"> products</span>{" "}
-                to help our clients build better companies.
+                Nous développons les meilleurs<span className="text-primary"> produits</span>{" "}
+                pour aider nos clients à construire des entreprises de qualitées.
               </h1>
               <div className="mt-12 sm:mt-24">
                 <Link
-                  to="/pages/about.html"
+                  to="#"
                   className="relative border-b py-3 font-serif text-xl before:absolute before:inset-x-0 before:bottom-0 before:h-px before:origin-right before:scale-x-0 before:bg-primary before:transition before:duration-300 hover:before:origin-left hover:before:scale-x-100"
                 >
-                  <span className="text-gray-600">About us</span>
+                  <span className="text-gray-600">A propos de nous</span>
                 </Link>
               </div>
             </div>
@@ -270,7 +268,7 @@ export default function Alt() {
                 className="relative mt-4 block text-center text-5xl font-thin transition-all duration-500 hover:tracking-wide sm:text-7xl"
               >
                 <span className="font-serif text-gray-700 transition duration-700 hover:bg-gradient-to-r hover:from-secondary hover:to-primary hover:bg-clip-text hover:text-transparent group-hover:text-primary">
-                  hello@tailus.io
+                  Creative@design.io
                 </span>
               </a>
             </div>
@@ -291,7 +289,7 @@ export default function Alt() {
               <ul className="group items-center justify-center gap-0 text-center text-sm text-gray-600 sm:flex lg:gap-0">
                 <li className="transition duration-500 group-hover:text-gray-300">
                   <Link to="/" className="block py-1 px-3 hover:text-gray-800">
-                    Work
+                    Réalisations
                   </Link>
                 </li>
                 <li className="transition duration-500 group-hover:text-gray-300">
@@ -307,14 +305,14 @@ export default function Alt() {
                     to="/pages/contact.html"
                     className="block py-1 px-3 hover:text-gray-800"
                   >
-                    Contact
+                    Contacts
                   </Link>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col flex-wrap items-center justify-between gap-4 py-6 text-sm text-gray-500 sm:flex-row sm:gap-6">
               <span className="order-last sm:order-first">
-                Copyright © ALT 2019 - Présent
+                Copyright © Bakeli : Red Team 2024 - Présent
               </span>
               <ul className="order-first flex gap-6 sm:order-2">
                 <li>
