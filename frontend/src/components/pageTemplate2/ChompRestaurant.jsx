@@ -23,12 +23,12 @@ export default function ChompRestaurant() {
       <div className="MainPage">
         <div
           id="Banner"
-          className="banner flex justify-center items-center h-[50px] bg-orange-500 py-[5px] px-[29.8438px]"
+          className="banner flex justify-center items-center h-[50px] bg-red-500 py-[5px] px-[29.8438px]"
         >
           <div className="banner-wrap p-0 m-0">
             <div className="notice-text text-center text-15 text-white h-[20px] ">
               Nous sommes ouverts et disponibles pour vos commandes à emporter
-              &amp; et vos livraison .
+              et vos livraison .
               <Link to="#" className="white-link">
                 Commandez maintenant.
               </Link>
@@ -51,8 +51,8 @@ export default function ChompRestaurant() {
                   <ul className="flex items-center text-md">
                     <li>
                       <a
-                        className="text-gray-500 transition hover:text-orange-500 w-[76.63] h-[60px] px-[20px] py-[16px] text-xl"
-                        href="/"
+                        className="text-gray-500 transition hover:text-red-500 w-[76.63] h-[60px] px-[20px] py-[16px] text-xl"
+                        href=""
                       >
                         Accueil
                       </a>
@@ -60,8 +60,8 @@ export default function ChompRestaurant() {
 
                     <li>
                       <a
-                        className="text-gray-500 transition hover:text-orange-500 w-[76.63] h-[60px] px-[20px] py-[16px] text-xl"
-                        href="/"
+                        className="text-gray-500 transition hover:text-red-500 w-[76.63] h-[60px] px-[20px] py-[16px] text-xl"
+                        href=""
                       >
                         Commander
                       </a>
@@ -69,7 +69,7 @@ export default function ChompRestaurant() {
 
                     <li>
                       <a
-                        className="text-gray-500 transition hover:text-orange-500 w-[76.63] h-[60px] px-[20px] py-[16px] text-xl"
+                        className="text-gray-500 transition hover:text-red-500 w-[76.63] h-[60px] px-[20px] py-[16px] text-xl"
                         href="/"
                       >
                         Entreprise
@@ -78,7 +78,7 @@ export default function ChompRestaurant() {
 
                     <li>
                       <a
-                        className="text-gray-500 transition hover:text-orange-500 w-[76.63] h-[60px] px-[20px] py-[16px] text-xl"
+                        className="text-gray-500 transition hover:text-red-500 w-[76.63] h-[60px] px-[20px] py-[16px] text-xl"
                         href="/"
                       >
                         FAQ
@@ -87,7 +87,7 @@ export default function ChompRestaurant() {
 
                     <li>
                       <a
-                        className="text-gray-500 transition hover:text-orange-500 w-[76.63] h-[60px] px-[20px] py-[16px] text-xl"
+                        className="text-gray-500 transition hover:text-red-500 w-[76.63] h-[60px] px-[20px] py-[16px] text-xl"
                         href="/"
                       >
                         Contact
@@ -99,7 +99,7 @@ export default function ChompRestaurant() {
                 <div className="flex items-center gap-4">
                   <div className="sm:flex sm:gap-4">
                     <a
-                      className="flex justify-center items-center rounded-md bg-orange-600 text-sm font-medium text-white shadow w-[65px] h-[65px] p-[13px]"
+                      className="flex justify-center items-center rounded-md bg-red-600 text-sm font-medium text-white shadow w-[65px] h-[65px] p-[13px]"
                       href="#"
                     >
                       <BsCart2 className="text-2xl" />
@@ -134,7 +134,7 @@ export default function ChompRestaurant() {
           <div className="secContentG h-full lg:w-[50%] flex flex-col justify-center lg:items-start lg:text-start sm:items-center sm:text-center w-auto">
             <h1 className="my-[20px] mx-0 w-auto text-6xl font-bold sm:mb-[20px]">
               Bonne nourriture et plats à emporter,
-              <span className="brand-span text-orange-500">livrer</span> à
+              <span className="brand-span text-red-500">livrer</span> à
               domicile
             </h1>
             <p className="w-auto  mb-[80px] text-[20px] font-bold text-[#546285]">
@@ -144,7 +144,7 @@ export default function ChompRestaurant() {
               festin de délices!
             </p>
             <Link
-              className="flex align-center items-center text-center w-[210px] h-[70px] inline-block rounded-[10px] border text-[19px] px-[50px] py-[22px] mb-[30px] text-md font-medium text-white bg-orange-500"
+              className="flex align-center items-center text-center w-[210px] h-[70px] inline-block rounded-[10px] border text-[19px] px-[50px] py-[22px] mb-[30px] text-md font-medium text-white bg-red-500"
               to="#"
             >
               Commander
@@ -158,7 +158,7 @@ export default function ChompRestaurant() {
                 />
               </span>
               <h1 className="text-[18px] h-[16px] mt-[10px] font-bolder">
-                <span className="text-orange-500">Note de 4,8 sur 5 </span>
+                <span className="text-red-500">Note de 4,8 sur 5 </span>
                 basée sur plus de 2000 avis.
               </h1>
             </div>
@@ -171,7 +171,7 @@ export default function ChompRestaurant() {
 
         <div className="bg-[#F5FBFE] md:flex md:items-center h-[100%] py-[100px] px-[40px]">
           <div className="sectionG2 h-full lg:w-[50%] flex flex-col justify-center lg:items-start lg:text-start sm:items-center sm:text-center w-auto">
-            <h1 className="text-orange-500 my-[20px] mx-0 w-auto text-6xl font-bold sm:mb-[20px] break-words">
+            <h1 className="text-red-500 my-[20px] mx-0 w-auto text-6xl font-bold sm:mb-[20px] break-words">
               Le foyer des produits frais.
             </h1>
             <p className="w-auto  mb-[80px] text-[20px] font-bold text-[#546285]">
@@ -180,7 +180,7 @@ export default function ChompRestaurant() {
               notre oasis gastronomique, le foyer des produits frais.
             </p>
             <Link
-              className="flex align-center items-center text-center w-[210px] h-[70px] inline-block rounded-[10px] border text-[19px] px-[35px] py-[22px] mb-[30px] text-md font-medium text-white bg-orange-500"
+              className="flex align-center items-center text-center w-[210px] h-[70px] inline-block rounded-[10px] border text-[19px] px-[35px] py-[22px] mb-[30px] text-md font-medium text-white bg-red-500"
               to="#"
             >
               Learn about us
@@ -197,7 +197,7 @@ export default function ChompRestaurant() {
         <div className="flex justify-center items-center h-[100%] py-[120px] px-[37px]">
           <div className="cardContainer md:flex flex-col justify-center md:items-center">
             <div className="title text-center flex justify-center w-[670px] h-[95px]">
-              <h2 className="text-center w-[500px] h-[75px] text-orange-500 text-[50px] font-bold">
+              <h2 className="text-center w-[500px] h-[75px] text-red-500 text-[50px] font-bold">
                 Mode d'emploi
               </h2>
             </div>
@@ -262,30 +262,30 @@ export default function ChompRestaurant() {
         <div className="flex flex-col justify-center items-center h-[100%] py-[120px] px-[37px]">
           <div className="bg-[#F5FBFE] cardContainer md:flex flex-col justify-center md:items-center">
             <div className="title flex flex-col w-[670px] h-[159px] mb-40">
-              <h2 className="text-center w-[700px] h-[75px] text-orange-500 text-[55px] font-bold my-5">
+              <h2 className="text-center w-[700px] h-[75px] text-red-500 text-[55px] font-bold my-5">
                 Parcourez notre menu
               </h2>
               <p className="text-center w-[700px] h-[54px] text-[23px] mb-5">
                 Utilisez notre menu pour passer une commande en ligne,ou
-                <span className="text-orange-500"> appelez</span> notre magasin
+                <span className="text-red-500"> appelez</span> notre magasin
                 pour passer une commande à emporter. Une nourriture rapide et
                 fraîche.
               </p>
               <div className="button flex flex-row justify-around align-center m-[50px]">
                 <Link
-                  className="flex align-center items-center text-center w-[160px] h-[60px] inline-block rounded-[10px] border text-[19px] px-[35px] py-[9px] mx-[15px] text-md font-medium bg-white hover:bg-orange-500 focus:bg-orange-500 hover:text-white focus:text-white"
+                  className="flex align-center items-center text-center w-[160px] h-[60px] inline-block rounded-[10px] border text-[19px] px-[35px] py-[9px] mx-[15px] text-md font-medium bg-white hover:bg-red-500 focus:bg-red-500 hover:text-white focus:text-white"
                   to="#"
                 >
                   Hamburger
                 </Link>
                 <Link
-                  className="flex align-center items-center text-center w-[160px] h-[60px] inline-block rounded-[10px] border text-[19px] px-[35px] py-[9px] mx-[15px] text-md font-medium bg-white hover:bg-orange-500 focus:bg-orange-500 hover:text-white focus:text-white"
+                  className="flex align-center items-center text-center w-[160px] h-[60px] inline-block rounded-[10px] border text-[19px] px-[35px] py-[9px] mx-[15px] text-md font-medium bg-white hover:bg-red-500 focus:bg-red-500 hover:text-white focus:text-white"
                   to="#"
                 >
                   Garnitures
                 </Link>
                 <Link
-                  className="flex align-center items-center text-center w-[160px] h-[60px] inline-block rounded-[10px] border text-[19px] px-[45px] py-[9px] mx-[15px] text-md font-medium bg-white hover:bg-orange-500 focus:bg-orange-500 hover:text-white focus:text-white"
+                  className="flex align-center items-center text-center w-[160px] h-[60px] inline-block rounded-[10px] border text-[19px] px-[45px] py-[9px] mx-[15px] text-md font-medium bg-white hover:bg-red-500 focus:bg-red-500 hover:text-white focus:text-white"
                   to="#"
                 >
                   Boissons
@@ -293,7 +293,7 @@ export default function ChompRestaurant() {
               </div>
             </div>
             <div className="cardsFood md:flex md:flex-wrap justify-center items-center sm:ms-10">
-              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-orange-500 rounded-[9px] ">
+              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-red-500 rounded-[9px] ">
                 <div className="card-img flex justify-center items-center w-[30%] h-full">
                   <img src={Burger01} alt="" className="w-[130px] h-[130px]" />
                 </div>
@@ -302,7 +302,7 @@ export default function ChompRestaurant() {
                     <h6 className="w-[160px] h-[20px] my-[10px] text-[22px] font-bold">
                       Le Classique
                     </h6>
-                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-orange-500">
+                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-red-500">
                       5.600 CFA
                     </p>
                   </span>
@@ -316,7 +316,7 @@ export default function ChompRestaurant() {
                       className="w-[60px] h-[50px] text-center me-[8px] p-[8px 6px 8px 12px] border border-gray bg-[#FAFAFA] rounded-[5px] focus:border-blue-500"
                     />
                     <Link
-                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-orange-500"
+                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-red-500"
                       to="#"
                     >
                       Commander
@@ -324,7 +324,7 @@ export default function ChompRestaurant() {
                   </form>
                 </div>
               </div>
-              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-orange-500 rounded-[9px] ">
+              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-red-500 rounded-[9px] ">
                 <div className="card-img flex justify-center items-center w-[30%] h-full">
                   <img src={Burger02} alt="" className="w-[130px] h-[130px]" />
                 </div>
@@ -333,7 +333,7 @@ export default function ChompRestaurant() {
                     <h6 className="w-[160px] h-[20px] my-[10px] text-[22px] font-bold">
                       Le Gourmand
                     </h6>
-                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-orange-500">
+                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-red-500">
                       5.600 CFA
                     </p>
                   </span>
@@ -347,7 +347,7 @@ export default function ChompRestaurant() {
                       className="w-[60px] h-[50px] text-center me-[8px] p-[8px 6px 8px 12px] border border-gray bg-[#FAFAFA] rounded-[5px] focus:border-blue-500"
                     />
                     <Link
-                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-orange-500"
+                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-red-500"
                       to="#"
                     >
                       Commander
@@ -355,7 +355,7 @@ export default function ChompRestaurant() {
                   </form>
                 </div>
               </div>
-              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-orange-500 rounded-[9px] ">
+              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-red-500 rounded-[9px] ">
                 <div className="card-img flex justify-center items-center w-[30%] h-full">
                   <img src={Burger03} alt="" className="w-[130px] h-[130px]" />
                 </div>
@@ -364,7 +364,7 @@ export default function ChompRestaurant() {
                     <h6 className="w-[160px] h-[20px] my-[10px] text-[22px] font-bold">
                       Le Terroir
                     </h6>
-                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-orange-500">
+                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-red-500">
                       5.600 CFA
                     </p>
                   </span>
@@ -378,7 +378,7 @@ export default function ChompRestaurant() {
                       className="w-[60px] h-[50px] text-center me-[8px] p-[8px 6px 8px 12px] border border-gray bg-[#FAFAFA] rounded-[5px] focus:border-blue-500"
                     />
                     <Link
-                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-orange-500"
+                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-red-500"
                       to="#"
                     >
                       Commander
@@ -386,7 +386,7 @@ export default function ChompRestaurant() {
                   </form>
                 </div>
               </div>
-              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-orange-500 rounded-[9px] ">
+              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-red-500 rounded-[9px] ">
                 <div className="card-img flex justify-center items-center w-[30%] h-full">
                   <img src={Burger04} alt="" className="w-[130px] h-[130px]" />
                 </div>
@@ -395,7 +395,7 @@ export default function ChompRestaurant() {
                     <h6 className="w-[1_0px] h-[20px] my-[10px] text-[22px] font-bold">
                       Le Délice Méditerranéen
                     </h6>
-                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-orange-500">
+                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-red-500">
                       5.600 CFA
                     </p>
                   </span>
@@ -409,7 +409,7 @@ export default function ChompRestaurant() {
                       className="w-[60px] h-[50px] text-center me-[8px] p-[8px 6px 8px 12px] border border-gray bg-[#FAFAFA] rounded-[5px] focus:border-blue-500"
                     />
                     <Link
-                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-orange-500"
+                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-red-500"
                       to="#"
                     >
                       Commander
@@ -417,7 +417,7 @@ export default function ChompRestaurant() {
                   </form>
                 </div>
               </div>
-              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-orange-500 rounded-[9px] ">
+              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-red-500 rounded-[9px] ">
                 <div className="card-img flex justify-center items-center w-[30%] h-full">
                   <img src={Burger05} alt="" className="w-[130px] h-[130px]" />
                 </div>
@@ -426,7 +426,7 @@ export default function ChompRestaurant() {
                     <h6 className="w-[160px] h-[20px] my-[10px] text-[22px] font-bold">
                       Le Gourmet
                     </h6>
-                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-orange-500">
+                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-red-500">
                       5.600 CFA
                     </p>
                   </span>
@@ -440,7 +440,7 @@ export default function ChompRestaurant() {
                       className="w-[60px] h-[50px] text-center me-[8px] p-[8px 6px 8px 12px] border border-gray bg-[#FAFAFA] rounded-[5px] focus:border-blue-500"
                     />
                     <Link
-                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-orange-500"
+                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-red-500"
                       to="#"
                     >
                       Commander
@@ -448,7 +448,7 @@ export default function ChompRestaurant() {
                   </form>
                 </div>
               </div>
-              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-orange-500 rounded-[9px] ">
+              <div className="foodCard bg-white flex w-[600px] h-[220px] p-[25px] m-[10px] border hover:border-red-500 rounded-[9px] ">
                 <div className="card-img flex justify-center items-center w-[30%] h-full">
                   <img src={Burger06} alt="" className="w-[130px] h-[130px]" />
                 </div>
@@ -457,7 +457,7 @@ export default function ChompRestaurant() {
                     <h6 className="w-[160px] h-[20px] my-[10px] text-[22px] font-bold">
                       L'Aventurier
                     </h6>
-                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-orange-500">
+                    <p className="w-[100px] h-[20px] my-[10px] text-[20px] text-red-500">
                       5.600 CFA
                     </p>
                   </span>
@@ -471,7 +471,7 @@ export default function ChompRestaurant() {
                       className="w-[60px] h-[50px] text-center me-[8px] p-[8px 6px 8px 12px] border border-gray bg-[#FAFAFA] rounded-[5px] focus:border-blue-500"
                     />
                     <Link
-                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-orange-500"
+                      className="flex align-center items-center text-center text-white w-[155px] h-[50px] inline-block rounded-[10px] border text-[19px] px-[25px] py-[9px] bg-red-500"
                       to="#"
                     >
                       Commander
@@ -481,7 +481,7 @@ export default function ChompRestaurant() {
               </div>
             </div>
             <Link
-              className="flex align-center items-center text-center w-[210px] h-[70px] inline-block rounded-[10px] border text-[19px] px-[40px] py-[22px] my-[40px] mx-auto text-xl font-medium text-white bg-orange-500"
+              className="flex align-center items-center text-center w-[210px] h-[70px] inline-block rounded-[10px] border text-[19px] px-[40px] py-[22px] my-[40px] mx-auto text-xl font-medium text-white bg-red-500"
               to="#"
             >
               Plus de menu
@@ -495,7 +495,7 @@ export default function ChompRestaurant() {
             style={{ backgroundImage: `url(${Phones})` }}
           ></div>
           <div className="secContentG h-full lg:w-[50%] flex flex-col justify-center lg:items-start lg:text-start sm:items-center sm:text-center w-auto">
-            <h1 className="my-[20px] mx-0 w-auto text-5xl font-bold sm:mb-[20px] text-orange-500">
+            <h1 className="my-[20px] mx-0 w-auto text-5xl font-bold sm:mb-[20px] text-red-500">
               Commandez en ligne avec notre processus de paiement simple et
               rapide.
             </h1>
@@ -504,7 +504,7 @@ export default function ChompRestaurant() {
               et rapidité grâce à notre processus de paiement simplifié.
             </p>
             <Link
-              className="flex align-center items-center text-center w-[210px] h-[70px] inline-block rounded-[10px] border text-[19px] px-[35px] py-[22px] mb-[30px] text-md font-medium text-white bg-orange-500"
+              className="flex align-center items-center text-center w-[210px] h-[70px] inline-block rounded-[10px] border text-[19px] px-[35px] py-[22px] mb-[30px] text-md font-medium text-white bg-red-500"
               to="#"
             >
               Voir notre FAQ
@@ -514,7 +514,7 @@ export default function ChompRestaurant() {
 
         <div className="bg-[#F5FBFE] md:flex md:items-center h-[100%] py-[100px] px-[40px]">
           <div className="sectionG2 h-full lg:w-[50%] flex flex-col justify-center lg:items-start lg:text-start sm:items-center sm:text-center w-auto">
-            <h1 className="text-orange-500 my-[20px] mx-0 w-auto text-4xl font-bold sm:mb-[20px] break-words">
+            <h1 className="text-red-500 my-[20px] mx-0 w-auto text-4xl font-bold sm:mb-[20px] break-words">
               Appelez notre magasin et emportez votre commande quand cela vous
               convient le mieux.
             </h1>
@@ -523,7 +523,7 @@ export default function ChompRestaurant() {
               convenance
             </p>
             <Link
-              className="flex align-center items-center text-center w-[250px] h-[70px] inline-block rounded-[10px] border text-[19px] px-[45px] py-[22px] mb-[30px] text-md font-medium text-white bg-orange-500"
+              className="flex align-center items-center text-center w-[250px] h-[70px] inline-block rounded-[10px] border text-[19px] px-[45px] py-[22px] mb-[30px] text-md font-medium text-white bg-red-500"
               to="#"
             >
               Ph. +61 233 2333
