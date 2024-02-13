@@ -40,7 +40,7 @@ function App() {
             <Route path="/template9" element={<PageTemplate4 />} />
             <Route path="/template10" element={<PageTemplate4 />} />
             <Route path="/template11" element={<PageTemplate4 />} />
-            <Route path="/templatesPage" element={<TotalTemplates />} />
+            <Route path="/dashbords" element={<TotalTemplates />} />
           </Routes>
         </BrowserRouter>
       </div>

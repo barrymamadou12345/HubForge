@@ -1,11 +1,11 @@
 import React from "react";
-import { useAppContext } from "../../context/AppContext";
-import { NavBarPageAccueil } from "./NavBarPageAccueil";
-import { CardesTemplate } from "./CardesTemplate";
-import { FooterPageAcueil } from "./FooterPageAcueil";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useAppContext } from "../../context/AppContext";
 import { CardsTemplateContenu2 } from "../Utils/UtilsTemplates";
+import { CardesTemplate } from "./CardesTemplate";
+import { FooterPageAcueil } from "./FooterPageAcueil";
+import { HubForgeHeader } from "./HubForgeHeader";
 
 export const PageAccueil = () => {
   const { darkMode } = useAppContext();
@@ -16,46 +16,15 @@ export const PageAccueil = () => {
       }`}
     >
       <div>
-        <div
-          className={`border-b-2 max-sm:px-4 px-20 max-sm:border-0 pb-3 ${
-            darkMode ? " border-gray-900" : "border-gray-100"
-          }`}
-        >
-          <NavBarPageAccueil />
-        </div>
-        <div className={` w-full mt-14 px-6 ${darkMode ? "" : ""}`}>
-          <h1
-            className={`text-center text-6xl font-bold leading-[66px] ${
-              darkMode ? "text-blanc" : " text-bluq"
-            }`}
-          >
-            Transformez votre <br />
-            <span>vision en réalité </span> <br />
-            <span>simplement</span>
-          </h1>
-          <p
-            className={`text-center py-14 text-xl font-[400] ${
-              darkMode ? "text-blanc" : "text-gris"
-            }`}
-          >
-            Concrétiser vos idées et votre vision grâce à des modèles de sites
-            vitrines et des dashboards.
-          </p>
-        </div>
-
-        <div className="w-full flex justify-center mb-20">
-          <Link to="/templatesPage">
-            <button
-              className={`text-white font-bold px-10 rounded-full hover:bg-[#161818] py-3 text-2xl flex bg-[#20143de4] ${
-                darkMode ? "bg-blue-800" : ""
-              }`}
-            >
-              Templates
-              <span>
-                <FaArrowRight className="text-4xl ps-4  animate-pulse" />
-              </span>
-            </button>
-          </Link>
+        <div>
+          <HubForgeHeader
+            pageName={"Dashbords"}
+            directionPage={"/dashbords"}
+            arrowDirect={
+              <FaArrowRight className="text-[32px] pt-1 ps-4  animate-pulse" />
+            }
+            pixels={"px-6"}
+          />
         </div>
         <div
           className={`mt-8 max-sm:mx-4 md:mx-24 flex justify-around flex-wrap`}

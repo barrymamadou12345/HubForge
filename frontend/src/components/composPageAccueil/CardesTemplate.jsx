@@ -50,9 +50,10 @@ export const CardesTemplate = ({
       >
         <Link
           to={telechargeLink}
-          className="bg-blue-950 mt-5 hover:scale-105 transition-all duration-500 text-blanc pb-1 text-xl rounded-full flex items-center h-[40px] px-5"
+          className="bg-blue-950 mt-5 hover:scale-105 transition-all
+           duration-500 text-blanc pb-1 text-md rounded-full flex items-center h-[37px] px-5"
         >
-          Telecharger
+          Télécharger
         </Link>
 
         <Link
@@ -60,9 +61,9 @@ export const CardesTemplate = ({
           target="_blank"
           className={` ${
             darkMode ? " hover:bg-black text-blanc" : "text-gray-600"
-          } text-xl hover:scale-105 transition-all duration-500 border border-gray-400 ms-4 pb-1 mt-5 rounded-full flex items-center h-[40px] px-4 `}
+          } text-md hover:scale-105 transition-all duration-500 border border-gray-400 ms-4 pb-1 mt-5 rounded-full flex items-center h-[35px] px-4 `}
         >
-          preview <FaArrowUpRightFromSquare className="text-[15px] ms-4 mt-1" />
+          Aperçu <FaArrowUpRightFromSquare className="text-[15px] ms-4 mt-1" />
         </Link>
       </div>
       <div className="flex justify-between px-4 w-full">
